@@ -16,42 +16,38 @@
 // along with Jasmine. See the file COPYING.
 // If not, see <http://www.gnu.org/licenses/>.
 
-
 #ifndef SATA_CMD_H
 #define SATA_CMD_H
 
-#define	ATA_CMD_NUM			59
-#define	CMD_TABLE_SIZE		60
+#define ATA_CMD_NUM 59
+#define CMD_TABLE_SIZE 60
 
-
-typedef void (* ATA_FUNCTION_T)(UINT32, UINT32);
-
+typedef void (*ATA_FUNCTION_T)(UINT32, UINT32);
 
 enum tag_FEATURES_subcommands
 {
-	FEATURE_ENABLE_WRITE_CACHE							= 0x02,
-	FEATURE_SET_TRANSFER_MODE							= 0x03,
-	FEATURE_ENABLE_ADVANCED_POWER_MANAGEMENT			= 0x05,
-	FEATURE_ENABLE_POWERUP_IN_STANDBY					= 0x06,
-	FEATURE_POWRUP_IN_STANDBY_FEATURE_SET_DEVICE_SPINUP	= 0x07,
-	FEATURE_ENABLE_USE_OF_SATA							= 0x10,
-	FEATURE_DISABLE_READ_LOOK_AHEAD						= 0x55,
-	FEATURE_DISABLE_REVERTING_TO_POWER_ON_DEFAULTS		= 0x66,
-	FEATURE_DISABLE_WRITE_CACHE							= 0x82,
-	FEATURE_DISABLE_ADVANCED_POWER_MANAGEMENT			= 0x85,
-	FEATURE_DISABLE_POWERUP_IN_STANDBY					= 0x86,
-	FEATURE_DISABLE_USE_OF_SATA							= 0x90,
-	FEATURE_ENABLE_READ_LOOK_AHEAD						= 0xAA,
-	FEATURE_ENABLE_REVERTING_TO_POWER_ON_DEFAULTS		= 0xCC
+	FEATURE_ENABLE_WRITE_CACHE = 0x02,
+	FEATURE_SET_TRANSFER_MODE = 0x03,
+	FEATURE_ENABLE_ADVANCED_POWER_MANAGEMENT = 0x05,
+	FEATURE_ENABLE_POWERUP_IN_STANDBY = 0x06,
+	FEATURE_POWRUP_IN_STANDBY_FEATURE_SET_DEVICE_SPINUP = 0x07,
+	FEATURE_ENABLE_USE_OF_SATA = 0x10,
+	FEATURE_DISABLE_READ_LOOK_AHEAD = 0x55,
+	FEATURE_DISABLE_REVERTING_TO_POWER_ON_DEFAULTS = 0x66,
+	FEATURE_DISABLE_WRITE_CACHE = 0x82,
+	FEATURE_DISABLE_ADVANCED_POWER_MANAGEMENT = 0x85,
+	FEATURE_DISABLE_POWERUP_IN_STANDBY = 0x86,
+	FEATURE_DISABLE_USE_OF_SATA = 0x90,
+	FEATURE_ENABLE_READ_LOOK_AHEAD = 0xAA,
+	FEATURE_ENABLE_REVERTING_TO_POWER_ON_DEFAULTS = 0xCC
 };
 
-#define MAXNUM_DRQ_SECTORS		0x01	/* using const UINT8 ht_identify_data[IDENTIFY_VALLEN] */
+#define MAXNUM_DRQ_SECTORS 0x01 /* using const UINT8 ht_identify_data[IDENTIFY_VALLEN] */
 
 extern const UINT8 ata_cmd_class_table[];
 extern const UINT8 ata_index_table[];
 extern const UINT8 ata_command_code_table[];
 extern const ATA_FUNCTION_T ata_function_table[];
-
 
 void ata_identify_device(UINT32 lba, UINT32 sector_count);
 void ata_set_features(UINT32 lba, UINT32 sector_count);
@@ -76,6 +72,7 @@ void ata_initialize_device_parameters(UINT32 lba, UINT32 sector_count);
 void ata_not_supported(UINT32 lba, UINT32 sector_count);
 void ata_srst(UINT32 lba, UINT32 sector_count);
 
+/// OGH: S.M.A.R.T support
+void ata_smart(UINT32 lba, UINT32 sector_count);
 
-#endif	// SATA_CMD_H
-
+#endif // SATA_CMD_H

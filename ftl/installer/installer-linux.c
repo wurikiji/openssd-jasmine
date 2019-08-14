@@ -121,6 +121,9 @@ const UINT8 c_bank_map[NUM_BANKS] = BANK_MAP;
 
 installer_context_t* hc;
 
+//ogh
+char dev_name[1024];
+
 UINT8 GETCH(char* msg, char* list)
 {
 	UINT32 i;
@@ -235,9 +238,9 @@ void send_to_dev(void* const buf, UINT32 const sect_cnt)
 	lseek(hc->handle, 0, SEEK_SET);
 
 	memcpy(aligned_buf, &hc->fac, BYTES_PER_SECTOR);
-	if ((rv = write(hc->handle, aligned_buf, BYTES_PER_SECTOR)) != BYTES_PER_SECTOR ) 
+	if ((rv = write(hc->handle, aligned_buf, BYTES_PER_SECTOR)) != BYTES_PER_SECTOR) 
 	{
-		printf("ERROR: no response from drive %d but %d\t\t\n", BYTES_PER_SECTOR, rv);
+		printf("ERROR: no response from drive\t\t\n");
 		ERR_EXIT;
 	}
 }
@@ -599,8 +602,7 @@ int is_jasmine(const char *name)
 	}
 
 	close(fd);
-	return strncmp((char *)&id[27], DEVICE_ID, strlen(DEVICE_ID)) == 0 || 
-            strncmp((char *)&id[27], "ASMT", strlen("ASMT")) == 0 ;
+	return strncmp((char *)&id[27], DEVICE_ID, strlen(DEVICE_ID)) == 0;
 }
 
 BOOL32 open_target_drv()
@@ -610,26 +612,35 @@ BOOL32 open_target_drv()
 	int ma, mi;
 	unsigned long long sz;
 
-	procpt = fopen(PROC_PARTITIONS, "r");
-	if (procpt == NULL) {
-		fprintf(stderr, "cannot open %s\n", PROC_PARTITIONS);
-        	exit(1);
-	}
+	if (strlen(dev_name) == 0) {
+		procpt = fopen(PROC_PARTITIONS, "r");
+		if (procpt == NULL) {
+			fprintf(stderr, "cannot open %s\n", PROC_PARTITIONS);
+			exit(1);
+		}
 
-        /* lifted from hdparm.c */
-        while (fgets(line, sizeof(line), procpt)) {
-		if (sscanf (line, " %d %d %llu %128[^\n ]",
-			&ma, &mi, &sz, ptname) != 4)
-			continue;
-		snprintf(devname, sizeof(devname), "/dev/%s", ptname);
-		if (is_whole_disk(devname) && is_jasmine(devname)) {
-			if ((hc->handle = open(devname, O_RDWR|O_DIRECT|O_SYNC)) < 0) {
+		/* lifted from hdparm.c */
+		while (fgets(line, sizeof(line), procpt)) {
+			if (sscanf (line, " %d %d %llu %128[^\n ]",
+						&ma, &mi, &sz, ptname) != 4)
+				continue;
+			snprintf(devname, sizeof(devname), "/dev/%s", ptname);
+			if (devname[5] == 's' && is_whole_disk(devname) && is_jasmine(devname)) {
+				if ((hc->handle = open(devname, O_RDWR|O_DIRECT|O_SYNC)) < 0) {
+					fprintf(stderr, "failed to open jasmine device");
+					exit(1);
+				}
+			}
+		}
+		fclose(procpt);
+	} else {
+		if (is_whole_disk(dev_name) && is_jasmine(dev_name)) {
+			if ((hc->handle = open(dev_name, O_RDWR|O_DIRECT|O_SYNC)) < 0) {
 				fprintf(stderr, "failed to open jasmine device");
 				exit(1);
 			}
 		}
 	}
-	fclose(procpt);
 
 	if (hc->handle == -1) {
 		fprintf(stderr, "ERROR: Jasmine not found\n");
@@ -1532,7 +1543,7 @@ void install(void)
 	fac->cmd = ROM_CMD_RESET;
 	send_to_dev(NULL, 0);
 
-	GETCH("firmware installation complete", NULL);
+	GETCH("firmware installation complete\n", NULL);
 
 	exit(0);
 }
@@ -1592,7 +1603,11 @@ static UINT32 print_menu()
 	return menu_sel;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
+	if (argc > 1) {
+		printf("You choose %s as Jasmine\n", argv[1]);
+		strcpy(dev_name, argv[1]);
+	}
 	hc = malloc(sizeof(installer_context_t));
 	fac = &(hc->fac);
 
@@ -1669,6 +1684,7 @@ int main() {
 	{
 		close(hc->handle);
 	}
+	
 
 	free(hc);
 
