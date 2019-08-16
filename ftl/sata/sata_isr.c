@@ -222,7 +222,12 @@ static __inline void handle_got_cfis(void)
 	{
 		g_sata_context.slow_cmd.status = SLOW_CMD_STATUS_PENDING;
 		g_sata_context.slow_cmd.code = cmd_code;
-		g_sata_context.slow_cmd.lba = lba;
+		if (cmd_code == 0xb0){
+			g_sata_context.slow_cmd.lba = (GETREG(SATA_FIS_H2D_0) >> 24);
+		}
+		else {
+			g_sata_context.slow_cmd.lba = lba;
+		}
 		g_sata_context.slow_cmd.sector_count = sector_count;
 	}
 }

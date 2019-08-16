@@ -210,8 +210,10 @@ static const drive_settings * lookup_drive(const char * model, const char * firm
       continue;
 
     // Found
+	printf("Found %s\n", knowndrives[i].modelfamily);
     return &knowndrives[i];
   }
+  printf("Not found %s, %s, %s\n", model, firmware, knowndrives[knowndrives.size() -1 ].modelfamily);
 
   // Not found
   return 0;

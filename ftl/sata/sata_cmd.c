@@ -367,15 +367,13 @@ static UINT8 get_checksum(UINT8 *addr)
 {
 	UINT8 checksum = 0;
 	UINT16 i;
-	UINT8 retval;
 
 	for (i = 0; i < 511; i++)
 	{
 		checksum += addr[i];
 	}
 
-	retval = ((~checksum) + 1);
-	return retval;
+	return -checksum;
 }
 
 static void ata_set_defaults(void)
@@ -455,11 +453,15 @@ static void ata_set_status(void)
 	smart_copy_data(&jasmine_status[115], 0);
 
 	jasmine_status[511] = get_checksum(jasmine_status); // checksum
+
+	uart_print("set smart state");
 }
 
 void ata_smart(UINT32 const lba, UINT32 const sector_count)
 {
 	mem_set_sram(jasmine_status, 0x00, sizeof(jasmine_status));
+	uart_print("Get smart command");
+	uart_print_32(lba);
 	if (lba == 0xD0)
 	{
 		ata_set_defaults();

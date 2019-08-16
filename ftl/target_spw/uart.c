@@ -126,6 +126,7 @@ void uart_print_hex(UINT32 num)
 	uart_txbyte('\n');
 }
 #include <stdarg.h>
+# if 0
 void uart_printf(const char * msg, ...)
 {
   fflush(stdout);
@@ -138,4 +139,8 @@ void uart_printf(const char * msg, ...)
   out[len] = '\0';
   uart_print(out);
 }
+#else
+void uart_printf(const char *msg, ...)
+{}
+#endif
 #endif	// OPTION_UART_DEBUG

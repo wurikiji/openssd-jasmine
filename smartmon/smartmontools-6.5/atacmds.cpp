@@ -722,8 +722,9 @@ void ata_get_size_info(const ata_identify_device * id, ata_size_info & sizes)
 unsigned char checksum(const void * data)
 {
   unsigned char sum = 0;
-  for (int i = 0; i < 512; i++)
+  for (int i = 0; i < 512; i++) {
     sum += ((const unsigned char *)data)[i];
+  }
   return sum;
 }
 
@@ -991,6 +992,7 @@ int ataReadSmartValues(ata_device * device, struct ata_smart_values *data){
     return -1;
   }
 
+  printf("[[ogh]] GET SMART VALUE, Checksum: %d\n", checksum(data));
   // compute checksum
   if (checksum(data))
     checksumwarning("SMART Attribute Data Structure");

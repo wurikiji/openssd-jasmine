@@ -4688,7 +4688,7 @@ const drive_settings builtin_knowndrives[] = {
   },
   { "OpenSSD Jasmine", 
     "OpenSSD Jasmine", 
-    "", 
+    "0001", 
     "", 
     "-v 241,raw48,Num_Write_Sectors "
     "-v 242,raw48,Num_Read_Sectors "

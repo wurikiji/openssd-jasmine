@@ -7,12 +7,28 @@
 AACRAID_SAS_SIGNATURE	aacraid.h	39;"	d
 ABORT_SELF_TEST	atacmds.h	116;"	d
 ACCEPT_MB_NODE	regex/regex_internal.h	284;"	d
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5\/missing aclocal-1.15$/;"	m
+ACLOCAL_AMFLAGS	Makefile	/^ACLOCAL_AMFLAGS = -I m4$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
 ALL_MODE_PAGES	scsicmds.h	237;"	d
 ALT	regex/regex_internal.h	/^  ALT,$/;"	e	enum:__anon117
 AMCC_3WARE_678K	os_linux.cpp	/^    AMCC_3WARE_678K,$/;"	e	enum:os_linux::linux_escalade_device::escalade_type_t	file:
 AMCC_3WARE_678K_CHAR	os_linux.cpp	/^    AMCC_3WARE_678K_CHAR,$/;"	e	enum:os_linux::linux_escalade_device::escalade_type_t	file:
 AMCC_3WARE_9000_CHAR	os_linux.cpp	/^    AMCC_3WARE_9000_CHAR,$/;"	e	enum:os_linux::linux_escalade_device::escalade_type_t	file:
 AMCC_3WARE_9700_CHAR	os_linux.cpp	/^    AMCC_3WARE_9700_CHAR$/;"	e	enum:os_linux::linux_escalade_device::escalade_type_t	file:
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = -DBUILD_INFO='$(BUILD_INFO)' \\$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = cscope$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCAS	Makefile	/^AM_V_CCAS = $(am__v_CCAS_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CXX	Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXXLD	Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
 ANCHOR	regex/regex_internal.h	/^  ANCHOR,$/;"	e	enum:__anon117
 APPLICATION_CLIENT_LPAGE	scsicmds.h	191;"	d
 ARCIOCTL_SEND_RAW_SRB	aacraid.h	38;"	d
@@ -84,6 +100,7 @@ ASC_RECORD_NOT_FOUND	os_qnxnto.h	239;"	d
 ASC_UNABLE_TO_RECOVER_TOC	os_qnxnto.h	241;"	d
 ASC_UNRECOVERABLE_READ_ERROR	os_qnxnto.h	238;"	d
 ASC_WRITE_PROTECTED	os_qnxnto.h	266;"	d
+ASFLAGS	Makefile	/^ASFLAGS = $/;"	m
 ASSERT_CONST	os_win32.cpp	97;"	d	file:
 ASSERT_SIZEOF	os_win32.cpp	99;"	d	file:
 ASSERT_SIZEOF_STRUCT	atacmds.h	37;"	d
@@ -243,8 +260,12 @@ ATTR_SIMPLE	cissio_freebsd.h	96;"	d
 ATTR_UNTAGGED	cissio_freebsd.h	95;"	d
 ATTR_UNUSED	os_win32.cpp	91;"	d	file:
 ATTR_UNUSED	os_win32.cpp	93;"	d	file:
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5\/missing automake-1.15$/;"	m
 AUTOSAVE	atacmds.h	/^  AUTOSAVE,$/;"	e	enum:__anon48
 AUTO_OFFLINE	atacmds.h	/^  AUTO_OFFLINE,$/;"	e	enum:__anon48
+AWK	Makefile	/^AWK = gawk$/;"	m
 AdditionalParameters	os_win32.cpp	/^  UCHAR AdditionalParameters[1];$/;"	m	struct:_STORAGE_PROPERTY_QUERY	file:
 AtaFlags	os_win32.cpp	/^  USHORT AtaFlags;$/;"	m	struct:_ATA_PASS_THROUGH_EX	file:
 Attached	csmisas.h	/^   CSMI_SAS_IDENTIFY Attached;$/;"	m	struct:_CSMI_SAS_PHY_ENTITY
@@ -276,6 +297,7 @@ BUG_SAMSUNG2	atacmds.h	/^  BUG_SAMSUNG2,$/;"	e	enum:firmwarebug_t
 BUG_SAMSUNG3	atacmds.h	/^  BUG_SAMSUNG3,$/;"	e	enum:firmwarebug_t
 BUG_XERRORLBA	atacmds.h	/^  BUG_XERRORLBA$/;"	e	enum:firmwarebug_t
 BUILD_CHARCLASS_LOOP	regex/regcomp.c	3238;"	d	file:
+BUILD_INFO	Makefile	/^BUILD_INFO = "(local build)"$/;"	m
 BUILD_INFO	utility.cpp	79;"	d	file:
 BYTE	csmisas.h	/^typedef unsigned char BYTE;$/;"	t
 BYTE_BITS	regex/regex_internal.h	89;"	d
@@ -291,8 +313,15 @@ CAM_FAILURE	os_qnxnto.h	69;"	d
 CAM_FALSE	os_qnxnto.h	71;"	d
 CAM_SUCCESS	os_qnxnto.h	68;"	d
 CAM_TRUE	os_qnxnto.h	72;"	d
+CAPNG_LDADD	Makefile	/^CAPNG_LDADD = -lcap-ng$/;"	m
 CAPTIVE_MASK	atacmds.h	121;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CCAS	Makefile	/^CCAS = gcc$/;"	m
+CCASCOMPILE	Makefile	/^CCASCOMPILE = $(CCAS) $(AM_CCASFLAGS) $(CCASFLAGS)$/;"	m
+CCASDEPMODE	Makefile	/^CCASDEPMODE = depmode=gcc3$/;"	m
+CCASFLAGS	Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCB	os_qnxnto.h	/^typedef void CCB;$/;"	t
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
 CCISS_GETBUSTYPES	cissio_freebsd.h	225;"	d
 CCISS_GETDRIVERVER	cissio_freebsd.h	227;"	d
 CCISS_GETFIRMVER	cissio_freebsd.h	226;"	d
@@ -308,6 +337,7 @@ CCISS_PASSTHRU32	cissio_freebsd.h	231;"	d
 CCISS_REVALIDVOLS	cissio_freebsd.h	228;"	d
 CCISS_SETINTINFO	cissio_freebsd.h	221;"	d
 CCISS_SETNODENAME	cissio_freebsd.h	223;"	d
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
 CC_CSMI_SAS_FIRMWARE_DOWNLOAD	csmisas.h	158;"	d
 CC_CSMI_SAS_FIRMWARE_DOWNLOAD	csmisas.h	256;"	d
 CC_CSMI_SAS_FIRMWARE_DOWNLOAD	csmisas.h	344;"	d
@@ -398,6 +428,7 @@ CD_SCAN_TYPE_LBA	os_qnxnto.h	570;"	d
 CD_SCAN_TYPE_MSF	os_qnxnto.h	571;"	d
 CD_SCAN_TYPE_MSK	os_qnxnto.h	573;"	d
 CD_SCAN_TYPE_TRK	os_qnxnto.h	572;"	d
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
 CF_DPO	os_qnxnto.h	286;"	d
 CF_FLAG	os_qnxnto.h	281;"	d
 CF_FUA	os_qnxnto.h	285;"	d
@@ -417,12 +448,14 @@ CISSQ_FREE	cissio_freebsd.h	201;"	d
 CISSQ_NOTIFY	cissio_freebsd.h	202;"	d
 CISS_FIBRE1G	cissio_freebsd.h	60;"	d
 CISS_FIBRE2G	cissio_freebsd.h	61;"	d
+CISS_LOCATION	config.h	8;"	d
 CISS_MAX_LUN	cciss.cpp	53;"	d	file:
 CISS_MAX_LUN	cissio_freebsd.h	69;"	d
 CISS_MAX_PHYS_LUN	cciss.cpp	55;"	d	file:
 CISS_PARCSCIU3	cissio_freebsd.h	59;"	d
 CISS_PARSCSIU2	cissio_freebsd.h	58;"	d
 CISS_REPORT_PHYS	cciss.cpp	56;"	d	file:
+CLEANFILES	Makefile	/^CLEANFILES = smartd.conf.5 smartd.conf.4 smartd.8 smartd.1m \\$/;"	m
 CLSID_WbemLocator	os_win32/wbemcli_small.h	/^  EXTERN_C const CLSID CLSID_WbemLocator;$/;"	v
 CMD_ABORTED	cissio_freebsd.h	82;"	d
 CMD_ABORT_FAILED	cissio_freebsd.h	83;"	d
@@ -439,8 +472,13 @@ CMD_UNABORTABLE	cissio_freebsd.h	86;"	d
 CMD_UNSOLICITED_ABORT	cissio_freebsd.h	84;"	d
 COLL_ELEM_LEN_MAX	regex/regex_internal.h	93;"	d
 COLL_SYM	regex/regex_internal.h	/^  COLL_SYM,$/;"	e	enum:__anon127
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
 COMPLEX_BRACKET	regex/regex_internal.h	/^  COMPLEX_BRACKET,$/;"	e	enum:__anon117
 CONCAT	regex/regex_internal.h	/^  CONCAT,$/;"	e	enum:__anon117
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_H_CVSID	config.h	11;"	d
 CONTEXT_BEGBUF	regex/regex_internal.h	407;"	d
 CONTEXT_ENDBUF	regex/regex_internal.h	408;"	d
 CONTEXT_NEWLINE	regex/regex_internal.h	406;"	d
@@ -453,6 +491,8 @@ CONTROLLER_UNKNOWN	utility.h	298;"	d
 CONTROL_MODE_PAGE	scsicmds.h	221;"	d
 CONVEYANCE_CAPTIVE_SELF_TEST	atacmds.h	119;"	d
 CONVEYANCE_SELF_TEST	atacmds.h	114;"	d
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CSCOPE	Makefile	/^CSCOPE = cscope$/;"	m
 CSMI_ALL_SIGNATURE	csmisas.h	403;"	d
 CSMI_ALL_TIMEOUT	csmisas.h	408;"	d
 CSMI_MAJOR_REVISION	csmisas.h	94;"	d
@@ -853,7 +893,16 @@ CSMI_SAS_TASK_IU	csmisas.h	870;"	d
 CSMI_SAS_TIMEOUT	csmisas.h	719;"	d
 CSMI_SAS_UNDEFINED	csmisas.h	965;"	d
 CSMI_SAS_USE_PORT_IDENTIFIER	csmisas.h	794;"	d
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
 CTL_CODE	aacraid.h	44;"	d
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2 -Wall -W$/;"	m
+CXXLD	Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
 Cache	csmisas.h	/^       CSMI_SAS_RAID_SET_CACHE_INFO Cache;$/;"	m	union:_CSMI_SAS_RAID_SET_OPERATION::__anon158
 CanNotRegister	smartd.cpp	/^static void CanNotRegister(const char *name, const char *type, int line, bool scandirective)$/;"	f	file:
 Cdb	aacraid.h	/^    UCHAR Cdb[16];                  \/\/ offset 30$/;"	m	struct:_SCSI_REQUEST_BLOCK
@@ -875,12 +924,16 @@ Create	csmisas.h	/^       CSMI_SAS_RAID_SET_CREATE_INFO Create;$/;"	m	union:_CSM
 CurrentTaskFile	os_win32.cpp	/^  UCHAR CurrentTaskFile[8];$/;"	m	struct:_ATA_PASS_THROUGH_EX	file:
 DAEMON_WIN32_H	os_win32/daemon_win32.h	19;"	d
 DAEMON_WIN32_H_CVSID	os_win32/daemon_win32.h	21;"	d
+DATA	Makefile	/^DATA = $(docs_DATA) $(drivedb_DATA) $(examples_DATA) $(initd_DATA) \\$/;"	m
 DATA_COMPRESSION_PAGE	scsicmds.h	226;"	d
 DATEANDEPOCHLEN	utility.h	80;"	d
 DBENTRY_ATA	knowndrives.cpp	/^  DBENTRY_ATA,$/;"	e	enum:dbentry_type	file:
 DBENTRY_ATA_DEFAULT	knowndrives.cpp	/^  DBENTRY_ATA_DEFAULT,$/;"	e	enum:dbentry_type	file:
 DBENTRY_USB	knowndrives.cpp	/^  DBENTRY_USB$/;"	e	enum:dbentry_type	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
 DEF_SAT_ATA_PASSTHRU_SIZE	scsiata.cpp	98;"	d	file:
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
 DEVICE_STRING_LENGTH	os_linux.cpp	1499;"	d	file:
 DEV_ARECA_H	dev_areca.h	19;"	d
 DEV_ARECA_H_CVSID	dev_areca.h	21;"	d
@@ -899,6 +952,12 @@ DEXCPT_DISABLE	scsicmds.cpp	1291;"	d	file:
 DEXCPT_ENABLE	scsicmds.cpp	1289;"	d	file:
 DISABLE	atacmds.h	/^  DISABLE,$/;"	e	enum:__anon48
 DISCONNECT_RECONNECT_PAGE	scsicmds.h	213;"	d
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(top_srcdir)\/configure \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(am__smartctl_SOURCES_DIST) \\$/;"	m
+DIST_TARGETS	Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DRIVEDB_BRANCH	Makefile	/^DRIVEDB_BRANCH = RELEASE_6_5_DRIVEDB$/;"	m
 DRIVE_ATTRIBUTE	os_qnxnto.h	/^ }DRIVE_ATTRIBUTE;$/;"	t	typeref:struct:_drive_attribute
 DUMMY_CONSTRAINT	regex/regex_internal.h	139;"	d
 DXFER_FROM_DEVICE	scsicmds.h	111;"	d
@@ -935,6 +994,10 @@ DriveList	csmisas.h	/^       CSMI_SAS_RAID_SET_DRIVE_LIST DriveList[1];$/;"	m	un
 DriverVer_type	cissio_freebsd.h	/^typedef u_int32_t	DriverVer_type;$/;"	t
 Drives	csmisas.h	/^      CSMI_SAS_RAID_DRIVES Drives[1];$/;"	m	union:_CSMI_SAS_RAID_CONFIG::__anon150
 EBUFLEN	smartd.cpp	942;"	d	file:
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
 EIDE_IDENTIFY	os_qnxnto.h	/^typedef struct _eide_identify   EIDE_IDENTIFY;$/;"	t	typeref:struct:_eide_identify
 ELIDE_CODE	getopt/getopt.c	56;"	d	file:
 ELIDE_CODE	getopt/getopt1.c	53;"	d	file:
@@ -950,6 +1013,7 @@ ENVIRONMENT64	aacraid.h	27;"	d
 EOF	os_win32/smartd_warning.cmd	/^:EOF$/;"	l
 EQUIV_CLASS	regex/regex_internal.h	/^  EQUIV_CLASS,$/;"	e	enum:__anon127
 ERASE_OPT_LONG	os_qnxnto.h	791;"	d
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
 EVT_DETACHED	os_win32/daemon_win32.cpp	52;"	d	file:
 EVT_NAME_LEN	os_win32/daemon_win32.cpp	48;"	d	file:
 EVT_RESTART	os_win32/daemon_win32.cpp	53;"	d	file:
@@ -959,6 +1023,7 @@ EWASC_ENABLE	scsicmds.cpp	1290;"	d	file:
 EXCHANGE_CMD_LOEJ	os_qnxnto.h	617;"	d
 EXCHANGE_CMD_START	os_qnxnto.h	616;"	d
 EXCHANGE_OPT_IMMED	os_qnxnto.h	612;"	d
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
 EXIT	utility.h	100;"	d
 EXIT_BADCMD	smartd.cpp	109;"	d	file:
 EXIT_BADCODE	smartd.cpp	117;"	d	file:
@@ -973,6 +1038,9 @@ EXIT_SIGNAL	smartd.cpp	122;"	d	file:
 EXIT_STARTUP	smartd.cpp	111;"	d	file:
 EXTEND_CAPTIVE_SELF_TEST	atacmds.h	118;"	d
 EXTEND_SELF_TEST	atacmds.h	113;"	d
+EXTRA_DIST	Makefile	/^EXTRA_DIST = \\$/;"	m
+EXTRA_smartctl_SOURCES	Makefile	/^EXTRA_smartctl_SOURCES = os_darwin.cpp os_darwin.h os_linux.cpp \\$/;"	m
+EXTRA_smartd_SOURCES	Makefile	/^EXTRA_smartd_SOURCES = os_darwin.cpp os_darwin.h os_linux.cpp \\$/;"	m
 Element	csmisas.h	/^   } Element;$/;"	m	struct:_CSMI_SAS_RAID_ELEMENT	typeref:union:_CSMI_SAS_RAID_ELEMENT::__anon153
 ErrorInfo	cissio_freebsd.h	/^	u_int32_t	ErrorInfo;$/;"	m	struct:__anon107::__anon108
 ErrorInfo_struct	cissio_freebsd.h	/^} __packed ErrorInfo_struct;$/;"	t	typeref:struct:__anon110
@@ -990,6 +1058,7 @@ FAILSTATUS	smartctl.h	49;"	d
 FAULT_FAILURE_REPORTING_PAGE	scsicmds.h	232;"	d
 FILE_DEVICE_SCSI	os_win32.cpp	201;"	d	file:
 FIRMWARE_STRING_LENGTH	knowndrives.cpp	39;"	d	file:
+FIXHTML	Makefile	/^FIXHTML = sed -e '1s,^Content-type.*,,' \\$/;"	m
 FLEXIBLE_DISK_PAGE	scsicmds.h	216;"	d
 FMT_BRIEF	ataprint.h	/^  enum { FMT_BRIEF = 0x01, FMT_HEX_ID = 0x02, FMT_HEX_VAL = 0x04 };$/;"	e	enum:ata_print_options::__anon114
 FMT_CERT	os_qnxnto.h	348;"	d
@@ -1033,12 +1102,39 @@ GETOPT_INTERFACE_VERSION	getopt/getopt.c	52;"	d	file:
 GETOPT_INTERFACE_VERSION	getopt/getopt1.c	49;"	d	file:
 GETVERSIONINPARAMS_EX	os_win32.cpp	/^} GETVERSIONINPARAMS_EX;$/;"	t	typeref:struct:_GETVERSIONINPARAMS_EX	file:
 GE_OPT_POLLED	os_qnxnto.h	641;"	d
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
 Get3Integers	smartd.cpp	/^static int Get3Integers(const char *arg, const char *name, const char *token, int lineno, const char *cfgfile,$/;"	f	file:
 GetInteger	smartd.cpp	/^static int GetInteger(const char *arg, const char *name, const char *token, int lineno, const char *cfgfile,$/;"	f	file:
 GetLogName	ataprint.cpp	/^static const char * GetLogName(unsigned logaddr)$/;"	f	file:
 GetNumLogSectors	ataprint.cpp	/^static unsigned GetNumLogSectors(const ata_smart_log_directory * logdir, unsigned logaddr, bool gpl)$/;"	f	file:
 GetValidArgList	smartd.cpp	/^static const char *GetValidArgList(char opt)$/;"	f	file:
 Goodbye	smartd.cpp	/^static int Goodbye(int status)$/;"	f	file:
+HAVE_ATTR_PACKED	config.h	14;"	d
+HAVE_CLOCK_GETTIME	config.h	17;"	d
+HAVE_FTIME	config.h	29;"	d
+HAVE_GETOPT_LONG	config.h	32;"	d
+HAVE_GETTIMEOFDAY	config.h	35;"	d
+HAVE_INT64_T	config.h	38;"	d
+HAVE_INTTYPES_H	config.h	41;"	d
+HAVE_LIBCAP_NG	config.h	44;"	d
+HAVE_LINUX_CCISS_IOCTL_H	config.h	53;"	d
+HAVE_LINUX_COMPILER_H	config.h	56;"	d
+HAVE_LOCALE_H	config.h	59;"	d
+HAVE_MEMORY_H	config.h	62;"	d
+HAVE_REGCOMP	config.h	68;"	d
+HAVE_SIGSET	config.h	74;"	d
+HAVE_STDINT_H	config.h	77;"	d
+HAVE_STDLIB_H	config.h	80;"	d
+HAVE_STRINGS_H	config.h	83;"	d
+HAVE_STRING_H	config.h	86;"	d
+HAVE_STRTOULL	config.h	89;"	d
+HAVE_SYS_STAT_H	config.h	98;"	d
+HAVE_SYS_TYPES_H	config.h	110;"	d
+HAVE_UINT64_T	config.h	113;"	d
+HAVE_UNAME	config.h	116;"	d
+HAVE_UNISTD_H	config.h	119;"	d
+HAVE_WORKING_SNPRINTF	config.h	125;"	d
 HAVE_WORKING_SNPRINTF	utility.h	43;"	d
 HDIO_DRIVE_CMD	os_linux.h	382;"	d
 HDIO_DRIVE_TASK	os_linux.h	383;"	d
@@ -1074,6 +1170,12 @@ INFORMATIONAL_EXCEPTIONS_CONTROL_PAGE	scsicmds.h	231;"	d
 INQLEN	os_qnxnto.h	66;"	d
 INQUIRY	scsicmds.h	65;"	d
 INSIDE_WORD	regex/regex_internal.h	/^  INSIDE_WORD = PREV_WORD_CONSTRAINT | NEXT_WORD_CONSTRAINT,$/;"	e	enum:__anon115
+INSTALL	Makefile	/^INSTALL = \/usr\/local\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
 INT32	scsicmds.h	/^typedef int INT32;$/;"	t
 INT64_H_	int64.h	21;"	d
 INT64_H_CVSID	int64.h	23;"	d
@@ -1158,6 +1260,7 @@ KNOWNDRIVES_H_	knowndrives.h	20;"	d
 KNOWNDRIVES_H_CVSID	knowndrives.h	22;"	d
 LAST_N_ERROR_LPAGE	scsicmds.h	186;"	d
 LB_PROV_LPAGE	scsicmds.h	188;"	d
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
 LD_CMD_EJECT	os_qnxnto.h	481;"	d
 LD_CMD_LOAD	os_qnxnto.h	482;"	d
 LD_CMD_LOEJ	os_qnxnto.h	479;"	d
@@ -1176,9 +1279,12 @@ LD_CMD_STOP	os_qnxnto.h	480;"	d
 LD_OPT_IMMED	os_qnxnto.h	474;"	d
 LEVEL2LUN	cissio_freebsd.h	70;"	d
 LEVEL3LUN	cissio_freebsd.h	71;"	d
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
 LINELEN	os_win32/syslog_win32.cpp	95;"	d	file:
 LINE_FIRST	regex/regex_internal.h	/^  LINE_FIRST = PREV_NEWLINE_CONSTRAINT,$/;"	e	enum:__anon115
 LINE_LAST	regex/regex_internal.h	/^  LINE_LAST = NEXT_NEWLINE_CONSTRAINT,$/;"	e	enum:__anon115
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
 LOCATE_OPT_BT	os_qnxnto.h	800;"	d
 LOCATE_OPT_CP	os_qnxnto.h	799;"	d
 LOGPAGEHDRSIZE	scsicmds.h	314;"	d
@@ -1223,6 +1329,7 @@ LS_PC_CUR_CUMULATIVE	os_qnxnto.h	413;"	d
 LS_PC_CUR_THRESHOLD	os_qnxnto.h	412;"	d
 LS_PC_DFLT_CUMULATIVE	os_qnxnto.h	415;"	d
 LS_PC_DFLT_THRESHOLD	os_qnxnto.h	414;"	d
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
 LUN	cciss.cpp	/^  uint8_t LUN[CISS_MAX_LUN][8];$/;"	m	struct:_ReportLUNdata_struct	file:
 LUNAddr_struct	cissio_freebsd.h	/^} __packed LUNAddr_struct;$/;"	t	typeref:union:__anon104
 LUNListLength	cciss.cpp	/^  uint32_t LUNListLength;	\/* always big-endian *\/$/;"	m	struct:_ReportLUNdata_struct	file:
@@ -1243,8 +1350,16 @@ Lun	aacraid.h	/^    UCHAR Lun;                      \/\/ offset 7$/;"	m	struct:_
 Lun	os_win32.cpp	/^  UCHAR Lun;$/;"	m	struct:_ATA_PASS_THROUGH_EX	file:
 LunAddrBytes	cissio_freebsd.h	/^    u_int8_t		LunAddrBytes[8];$/;"	m	union:__anon104
 MAILTYPE_TEST	smartd.cpp	/^static const int MAILTYPE_TEST = 0;$/;"	v	file:
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAINTAINERCLEANFILES	Makefile	/^MAINTAINERCLEANFILES = \\$/;"	m
 MAJOR_STRING_LENGTH	os_linux.cpp	1498;"	d	file:
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5\/missing makeinfo$/;"	m
+MAKENSIS	Makefile	/^MAKENSIS = $/;"	m
+MAN2HTML	Makefile	/^MAN2HTML = man2html$/;"	m
+MAN2TXT	Makefile	/^MAN2TXT = groff -man -Tascii -P'-bcou'$/;"	m
 MANDATORY_CMD	smartctl.h	/^  MANDATORY_CMD,$/;"	e	enum:failure_type
+MANS	Makefile	/^MANS = $(man_MANS)$/;"	m
+MAN_FILTER	Makefile	/^MAN_FILTER = { \\$/;"	m
 MAX	os_linux.h	55;"	d
 MAXDEV_PER_CHANNEL	os_freebsd.h	575;"	d
 MAXLINES	os_win32/syslog_win32.cpp	94;"	d	file:
@@ -1284,6 +1399,7 @@ MFI_FRAME_SGL64	megaraid.h	111;"	d
 MFI_MBOX_SIZE	megaraid.h	117;"	d
 MFI_STAT_OK	megaraid.h	112;"	d
 MKADAP	megaraid.h	21;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/usr\/local\/bin\/mkdir -p$/;"	m
 MODEL_STRING_LENGTH	knowndrives.cpp	38;"	d	file:
 MODE_SELECT	scsicmds.h	59;"	d
 MODE_SELECT_10	scsicmds.h	62;"	d
@@ -1333,12 +1449,15 @@ NONOPTION_P	getopt/getopt.c	543;"	d	file:
 NONVOL_CACHE_LPAGE	scsicmds.h	195;"	d
 NON_MEDIUM_ERROR_LPAGE	scsicmds.h	185;"	d
 NON_TYPE	regex/regex_internal.h	/^  NON_TYPE = 0,$/;"	e	enum:__anon117
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
 NOTCH_PAGE	scsicmds.h	223;"	d
 NOT_SATISFY_NEXT_CONSTRAINT	regex/regex_internal.h	427;"	d
 NOT_SATISFY_PREV_CONSTRAINT	regex/regex_internal.h	421;"	d
 NO_DISK_3WARE	os_freebsd.cpp	88;"	d	file:
 NO_RETURN	os_freebsd.cpp	86;"	d	file:
 NO_warn_unused_result	smartd.cpp	1358;"	d	file:
+NROFF	Makefile	/^NROFF = nroff$/;"	m
 NULL	getopt/getopt1.c	67;"	d	file:
 NUMBER_ATA_SMART_ATTRIBUTES	atacmds.h	124;"	d
 NUMBER_OF_STATE	regex/regexec.c	1374;"	d	file:
@@ -1365,6 +1484,7 @@ NVMeDeviceScan	smartd.cpp	/^static int NVMeDeviceScan(dev_config & cfg, dev_stat
 NextSrb	aacraid.h	/^    struct _SCSI_REQUEST_BLOCK *NextSrb; \/\/ offset 20$/;"	m	struct:_SCSI_REQUEST_BLOCK	typeref:struct:_SCSI_REQUEST_BLOCK::_SCSI_REQUEST_BLOCK
 NodeName_type	cissio_freebsd.h	/^typedef char		NodeName_type[16];$/;"	t
 NonMediumErrorPageSupported	smartd.cpp	/^  unsigned char NonMediumErrorPageSupported;$/;"	m	struct:temp_dev_state	file:
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
 OFFLINE_FULL_SCAN	atacmds.h	111;"	d
 OPTIONAL_CMD	smartctl.h	/^  OPTIONAL_CMD,$/;"	e	enum:failure_type
 OP_ALT	regex/regex_internal.h	/^  OP_ALT,$/;"	e	enum:__anon117
@@ -1412,7 +1532,23 @@ P	atacmds.cpp	417;"	d	file:
 P	atacmds.cpp	429;"	d	file:
 P	ataprint.cpp	1359;"	d	file:
 P	ataprint.cpp	1364;"	d	file:
+PACKAGE	Makefile	/^PACKAGE = smartmontools$/;"	m
+PACKAGE	config.h	131;"	d
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = smartmontools-support@lists.sourceforge.net$/;"	m
+PACKAGE_BUGREPORT	config.h	134;"	d
+PACKAGE_HOMEPAGE	config.h	137;"	d
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = smartmontools$/;"	m
+PACKAGE_NAME	config.h	140;"	d
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = smartmontools 6.5$/;"	m
+PACKAGE_STRING	config.h	143;"	d
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = smartmontools$/;"	m
+PACKAGE_TARNAME	config.h	146;"	d
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	config.h	149;"	d
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 6.5$/;"	m
+PACKAGE_VERSION	config.h	152;"	d
 PATHINQ_SETTINGS_SIZE	os_freebsd.cpp	80;"	d	file:
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
 PCSMI_SAS_CHARACTER	csmisas.h	/^  *PCSMI_SAS_CHARACTER;$/;"	t	typeref:struct:_CSMI_SAS_CHARACTER
 PCSMI_SAS_CNTLR_CONFIG	csmisas.h	/^  *PCSMI_SAS_CNTLR_CONFIG;$/;"	t	typeref:struct:_CSMI_SAS_CNTLR_CONFIG
 PCSMI_SAS_CNTLR_CONFIG_BUFFER	csmisas.h	/^  *PCSMI_SAS_CNTLR_CONFIG_BUFFER;$/;"	t	typeref:struct:_CSMI_SAS_CNTLR_CONFIG_BUFFER
@@ -1500,12 +1636,19 @@ PHPT_PASS_THROUGH_HEADER	os_freebsd.h	/^HPT_PASS_THROUGH_HEADER, *PHPT_PASS_THRO
 PIDENTIFY	atacmds.h	/^  PIDENTIFY,$/;"	e	enum:__anon48
 PIOCTL_HEADER	csmisas.h	/^  *PIOCTL_HEADER;$/;"	t	typeref:struct:_IOCTL_HEADER
 PIOCTL_HEADER	csmisas.h	287;"	d
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG_LIBDIR	Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_PATH	Makefile	/^PKG_CONFIG_PATH = $/;"	m
 PMPORT_PER_CHANNEL	os_freebsd.h	576;"	d
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
 POWER_CONDITION_PAGE	scsicmds.h	230;"	d
 PREV_BEGBUF_CONSTRAINT	regex/regex_internal.h	137;"	d
 PREV_NEWLINE_CONSTRAINT	regex/regex_internal.h	135;"	d
 PREV_NOTWORD_CONSTRAINT	regex/regex_internal.h	132;"	d
 PREV_WORD_CONSTRAINT	regex/regex_internal.h	131;"	d
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
 PRIOR_DATABASE	atacmds.h	/^  PRIOR_DATABASE,$/;"	e	enum:ata_vendor_def_prior
 PRIOR_DEFAULT	atacmds.h	/^  PRIOR_DEFAULT,$/;"	e	enum:ata_vendor_def_prior
 PRIOR_USER	atacmds.h	/^  PRIOR_USER$/;"	e	enum:ata_vendor_def_prior
@@ -1515,6 +1658,7 @@ PRIu64	int64.h	65;"	d
 PRIu64	int64.h	76;"	d
 PRIx64	int64.h	66;"	d
 PRIx64	int64.h	80;"	d
+PROGRAMS	Makefile	/^PROGRAMS = $(sbin_PROGRAMS)$/;"	m
 PROTOCOL_SPECIFIC_LPAGE	scsicmds.h	196;"	d
 PROTOCOL_SPECIFIC_LUN_PAGE	scsicmds.h	228;"	d
 PROTOCOL_SPECIFIC_PORT_PAGE	scsicmds.h	229;"	d
@@ -1761,6 +1905,7 @@ SAT_ATA_PASSTHROUGH_16LEN	scsiata.cpp	96;"	d	file:
 SBC_MAX	regex/regex_internal.h	91;"	d
 SB_CHAR	regex/regex_internal.h	/^  SB_CHAR,$/;"	e	enum:__anon127
 SCANDIRECTIVE	smartd.cpp	4390;"	d	file:
+SCRIPTS	Makefile	/^SCRIPTS = $(examples_SCRIPTS) $(sbin_SCRIPTS) $(smartdscript_SCRIPTS)$/;"	m
 SCSI3Addr_struct	cissio_freebsd.h	/^} SCSI3Addr_struct;$/;"	t	typeref:union:__anon98
 SCSI3Lun	cissio_freebsd.h	/^    SCSI3Addr_struct	SCSI3Lun[4];$/;"	m	union:__anon104
 SCSICMDS_H_	scsicmds.h	31;"	d
@@ -1858,10 +2003,12 @@ SENSE_DTYPE_OSD_INTEGRITY	os_qnxnto.h	187;"	d
 SENSE_DTYPE_OSD_OBJ_IDENT	os_qnxnto.h	186;"	d
 SENSE_DTYPE_SKS	os_qnxnto.h	182;"	d
 SENSE_DTYPE_STREAM	os_qnxnto.h	184;"	d
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
 SG_IO_PRESENT_NO	os_linux.cpp	515;"	d	file:
 SG_IO_PRESENT_UNKNOWN	os_linux.cpp	513;"	d	file:
 SG_IO_PRESENT_YES	os_linux.cpp	514;"	d	file:
 SG_IO_RESP_SENSE_LEN	os_linux.cpp	500;"	d	file:
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
 SHORT_CAPTIVE_SELF_TEST	atacmds.h	117;"	d
 SHORT_SELF_TEST	atacmds.h	112;"	d
 SIGHUP	os_win32/daemon_win32.h	26;"	d
@@ -1927,11 +2074,20 @@ SMARTD_PREVCNT	os_win32/smartd_warning.cmd	/^  echo set SMARTD_PREVCNT='Number o
 SMARTD_SUBJECT	os_win32/smartd_warning.cmd	/^set SMARTD_SUBJECT=SMART error (%SMARTD_FAILTYPE%) detected on host: %COMPUTERNAME%$/;"	v
 SMARTD_TFIRST	os_win32/smartd_warning.cmd	/^  echo set SMARTD_TFIRST='Date of first message sent, empty if none'$/;"	v
 SMARTD_TFIRSTEPOCH	os_win32/smartd_warning.cmd	/^  echo :: set SMARTD_TFIRSTEPOCH='time_t format of above'$/;"	v
+SMARTMONTOOLS_BUILD_HOST	config.h	155;"	d
+SMARTMONTOOLS_CONFIGURE_ARGS	config.h	158;"	d
+SMARTMONTOOLS_RELEASE_DATE	config.h	161;"	d
+SMARTMONTOOLS_RELEASE_TIME	config.h	164;"	d
+SMARTMONTOOLS_SVN_DATE	svnversion.h	3;"	d
+SMARTMONTOOLS_SVN_REV	svnversion.h	2;"	d
+SMARTMONTOOLS_SVN_TIME	svnversion.h	4;"	d
 SMART_CYL_HI	atacmds.cpp	51;"	d	file:
 SMART_CYL_HI	os_win32.cpp	480;"	d	file:
 SMART_CYL_LOW	atacmds.cpp	50;"	d	file:
 SMART_CYL_LOW	os_win32.cpp	479;"	d	file:
 SMART_VENDOR_3WARE	os_win32.cpp	287;"	d	file:
+SOLARIS_MAN_FILTER	Makefile	/^SOLARIS_MAN_FILTER = \\$/;"	m
+SOURCES	Makefile	/^SOURCES = $(smartctl_SOURCES) $(EXTRA_smartctl_SOURCES) \\$/;"	m
 SPACE_CODE_BLOCKS	os_qnxnto.h	844;"	d
 SPACE_CODE_EOD	os_qnxnto.h	847;"	d
 SPACE_CODE_FMRKS	os_qnxnto.h	845;"	d
@@ -1960,13 +2116,16 @@ START_STOP_UNIT	scsicmds.h	83;"	d
 STATE_NODE_CONTAINS	regex/regexec.c	1396;"	d	file:
 STATUS	atacmds.h	/^  STATUS,       \/\/ just says if SMART is working or not$/;"	e	enum:__anon48
 STATUS_CHECK	atacmds.h	/^  STATUS_CHECK, \/\/ says if disk's SMART status is healthy, or failing$/;"	e	enum:__anon48
+STDC_HEADERS	config.h	167;"	d
 STORAGE_DEVICE_DESCRIPTOR	os_win32.cpp	/^} STORAGE_DEVICE_DESCRIPTOR;$/;"	t	typeref:struct:_STORAGE_DEVICE_DESCRIPTOR	file:
 STORAGE_DEVICE_DESCRIPTOR_DATA	os_win32.cpp	/^union STORAGE_DEVICE_DESCRIPTOR_DATA {$/;"	u	namespace:os_win32	file:
 STORAGE_PROPERTY_ID	os_win32.cpp	/^} STORAGE_PROPERTY_ID;$/;"	t	typeref:enum:_STORAGE_PROPERTY_ID	file:
 STORAGE_PROPERTY_QUERY	os_win32.cpp	/^} STORAGE_PROPERTY_QUERY;$/;"	t	typeref:struct:_STORAGE_PROPERTY_QUERY	file:
 STORAGE_QUERY_TYPE	os_win32.cpp	/^} STORAGE_QUERY_TYPE;$/;"	t	typeref:enum:_STORAGE_QUERY_TYPE	file:
 STRANGE_BUFFER_LENGTH	os_linux.cpp	2281;"	d	file:
+STRIP	Makefile	/^STRIP = $/;"	m
 SUBEXP	regex/regex_internal.h	/^  SUBEXP,$/;"	e	enum:__anon117
+SUFFIXES	Makefile	/^SUFFIXES = .cpp .c .s .o$/;"	m
 SUPPORTED_LPAGES	scsicmds.h	179;"	d
 SWAP_FLAGS	getopt/getopt.c	278;"	d	file:
 SWAP_FLAGS	getopt/getopt.c	286;"	d	file:
@@ -2131,6 +2290,8 @@ UserPatternBuffer	csmisas.h	/^   CSMI_SAS_CHARACTER UserPatternBuffer[16];$/;"	m
 VENDOR_UNIQUE_PAGE	scsicmds.h	211;"	d
 VERIFY_ERROR_COUNTER_LPAGE	scsicmds.h	184;"	d
 VERIFY_ERROR_RECOVERY_PAGE	scsicmds.h	217;"	d
+VERSION	Makefile	/^VERSION = 6.5$/;"	m
+VERSION	config.h	170;"	d
 VendorIdOffset	os_win32.cpp	/^  ULONG VendorIdOffset;$/;"	m	struct:_STORAGE_DEVICE_DESCRIPTOR	file:
 VendorSpecific	os_win32.cpp	/^  ULONG VendorSpecific[6];$/;"	m	struct:_NVME_PASS_THROUGH_IOCTL	file:
 VerifyECounterPageSupported	smartd.cpp	/^  unsigned char VerifyECounterPageSupported;$/;"	m	struct:temp_dev_state	file:
@@ -2167,6 +2328,8 @@ WIN32_LEAN_AND_MEAN	os_win32.cpp	54;"	d	file:
 WIN32_LEAN_AND_MEAN	os_win32/daemon_win32.cpp	31;"	d	file:
 WIN32_LEAN_AND_MEAN	os_win32/syslog_win32.cpp	33;"	d	file:
 WIN32_LEAN_AND_MEAN	os_win32/wtssendmsg.c	26;"	d	file:
+WINDMC	Makefile	/^WINDMC = $/;"	m
+WINDRES	Makefile	/^WINDRES = $/;"	m
 WINVER	os_win32.cpp	25;"	d	file:
 WINVER	os_win32/daemon_win32.cpp	18;"	d	file:
 WINVER	os_win32/wmiquery.cpp	19;"	d	file:
@@ -2174,6 +2337,7 @@ WINVER	os_win32/wtssendmsg.c	18;"	d	file:
 WMIQUERY_H	os_win32/wmiquery.h	19;"	d
 WMIQUERY_H_CVSID	os_win32/wmiquery.h	21;"	d
 WORD	csmisas.h	/^typedef unsigned short WORD;$/;"	t
+WORDS_BIGENDIAN	config.h	185;"	d
 WORD_DELIM	regex/regex_internal.h	/^  WORD_DELIM = DUMMY_CONSTRAINT$/;"	e	enum:__anon115
 WORD_FIRST	regex/regex_internal.h	/^  WORD_FIRST = PREV_NOTWORD_CONSTRAINT | NEXT_WORD_CONSTRAINT,$/;"	e	enum:__anon115
 WORD_LAST	regex/regex_internal.h	/^  WORD_LAST = PREV_WORD_CONSTRAINT | NEXT_NOTWORD_CONSTRAINT,$/;"	e	enum:__anon115
@@ -2355,6 +2519,12 @@ aId	os_linux.cpp	/^  int aId;$/;"	m	class:os_linux::linux_aacraid_device	file:
 aLun	os_linux.cpp	/^  int aLun;$/;"	m	class:os_linux::linux_aacraid_device	file:
 aacraid_MAX_CTLR_NUM	os_win32.cpp	3942;"	d	file:
 abkref_ents	regex/regex_internal.h	/^  int abkref_ents;$/;"	m	struct:__anon125
+abs_builddir	Makefile	/^abs_builddir = \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
 ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
 ac_fn_cxx_check_func	configure	/^ac_fn_cxx_check_func ()$/;"	f
 ac_fn_cxx_check_header_compile	configure	/^ac_fn_cxx_check_header_compile ()$/;"	f
@@ -2410,6 +2580,75 @@ allocation_length	os_qnxnto.h	/^		uchar_t		allocation_length[2];$/;"	m	struct:_c
 allocation_length	os_qnxnto.h	/^		uchar_t		allocation_length[2];$/;"	m	struct:_cdb::__anon79
 allocation_length	os_qnxnto.h	/^		uchar_t		allocation_length[2];$/;"	m	struct:_cdb::__anon90
 allocation_length	os_qnxnto.h	/^		uchar_t		allocation_length[2];$/;"	m	struct:_cdb::_mode_sense10
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__DEPENDENCIES_1	Makefile	/^am__DEPENDENCIES_1 =$/;"	m
+am__DIST_COMMON	Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/config.h.in AUTHORS \\$/;"	m
+am__EXTRA_smartctl_SOURCES_DIST	Makefile	/^am__EXTRA_smartctl_SOURCES_DIST = os_darwin.cpp os_darwin.h \\$/;"	m
+am__EXTRA_smartd_SOURCES_DIST	Makefile	/^am__EXTRA_smartd_SOURCES_DIST = os_darwin.cpp os_darwin.h os_linux.cpp \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/pkg.m4 \\$/;"	m
+am__append_1	Makefile	/^am__append_1 = -DSMARTMONTOOLS_DRIVEDBDIR='"$(drivedbdir)"'$/;"	m
+am__append_23	Makefile	/^am__append_23 = update-smart-drivedb.8$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(sbindir)" "$(DESTDIR)$(examplesdir)" \\$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__post_remove_distdir	Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__smartctl_SOURCES_DIST	Makefile	/^am__smartctl_SOURCES_DIST = smartctl.cpp smartctl.h atacmdnames.cpp \\$/;"	m
+am__smartd_SOURCES_DIST	Makefile	/^am__smartd_SOURCES_DIST = smartd.cpp atacmdnames.cpp atacmdnames.h \\$/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uninstall_files_from_dir	Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCAS_	Makefile	/^am__v_CCAS_ = $(am__v_CCAS_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCAS_0	Makefile	/^am__v_CCAS_0 = @echo "  CCAS    " $@;$/;"	m
+am__v_CCAS_1	Makefile	/^am__v_CCAS_1 = $/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CXXLD_	Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_0	Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_0	Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_1	Makefile	/^am__v_lt_1 = $/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_smartctl_OBJECTS	Makefile	/^am_smartctl_OBJECTS = smartctl.$(OBJEXT) atacmdnames.$(OBJEXT) \\$/;"	m
+am_smartd_OBJECTS	Makefile	/^am_smartd_OBJECTS = smartd.$(OBJEXT) atacmdnames.$(OBJEXT) \\$/;"	m
 analyze	regex/regcomp.c	/^analyze (dfa)$/;"	f	file:
 analyze_tree	regex/regcomp.c	/^analyze_tree (dfa, node)$/;"	f	file:
 any_device_auto_ptr	dev_interface.h	/^  explicit any_device_auto_ptr(device_type * dev = 0,$/;"	f	class:any_device_auto_ptr
@@ -2461,17 +2700,25 @@ argv	getopt/getopt1.c	/^     char **argv;$/;"	v
 array	regex/regex_internal.h	/^  re_dfastate_t **array;$/;"	m	struct:__anon122
 array	regex/regex_internal.h	/^  re_dfastate_t **array;$/;"	m	struct:re_state_table_entry
 ars	megaraid.h	/^  uint8_t  ars : 1;$/;"	m	struct:__anon41
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
 as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
 as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
 as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
 as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
 as_fn_exit	configure	/^as_fn_exit ()$/;"	f
 as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
 as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
 as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
 as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
 as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
 as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
 as_fn_unset	configure	/^as_fn_unset ()$/;"	f
 asb	os_qnxnto.h	/^	ushort_t	asb;				\/\/ Additional Sense uchar_ts (Max 256-18)$/;"	m	struct:_scsi_sense
 asc	os_qnxnto.h	/^	uchar_t		asc;				\/\/ Additional Sense Code$/;"	m	struct:_scsi_sense
@@ -2665,6 +2912,8 @@ attribute_hidden	getopt/getopt.c	95;"	d	file:
 attribute_hidden	regex/regcomp.c	/^const char __re_error_msgid[] attribute_hidden =$/;"	v
 attribute_hidden	regex/regcomp.c	/^const size_t __re_error_msgid_idx[] attribute_hidden =$/;"	v
 attribute_hidden	regex/regex_internal.h	106;"	d
+attributelog	Makefile	/^attributelog = $/;"	m
+attributelogdir	Makefile	/^attributelogdir = $/;"	m
 attrlog_file	smartd.cpp	/^  std::string attrlog_file;               \/\/ Path of the persistent attrlog file, empty if none$/;"	m	struct:dev_config	file:
 attrlog_path_prefix	smartd.cpp	/^static std::string attrlog_path_prefix$/;"	v	file:
 autodetect_open	dev_interface.cpp	/^smart_device * smart_device::autodetect_open()$/;"	f	class:smart_device
@@ -2950,6 +3199,7 @@ ba	os_qnxnto.h	/^		uchar_t		ba[4];			\/\/ block address$/;"	m	struct:_cdb::__ano
 be32toh	cciss.cpp	19;"	d	file:
 bin_tree_t	regex/regex_internal.h	/^struct bin_tree_t$/;"	s
 bin_tree_t	regex/regex_internal.h	/^typedef struct bin_tree_t bin_tree_t;$/;"	t	typeref:struct:bin_tree_t
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
 bitset	regex/regex_internal.h	/^typedef unsigned int bitset[BITSET_UINTS];$/;"	t
 bitset_clear	regex/regex_internal.h	120;"	d
 bitset_contain	regex/regex_internal.h	121;"	d
@@ -2978,15 +3228,22 @@ buffer	regex/regex.h	/^  unsigned char *buffer;$/;"	m	struct:re_pattern_buffer
 buffer_length	os_freebsd.h	/^	TW_UINT32	buffer_length;$/;"	m	struct:tw_cl_driver_packet
 buffer_length	os_linux.h	/^  unsigned int buffer_length;$/;"	m	struct:TAG_TW_Ioctl_Driver_Command_9000
 bufs_len	regex/regex_internal.h	/^  int bufs_len;$/;"	m	struct:re_string_t
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
 build_charclass	regex/regcomp.c	/^build_charclass (sbcset, mbcset, char_class_alloc, class_name, syntax)$/;"	f	file:
 build_collating_symbol	regex/regcomp.c	/^build_collating_symbol (sbcset, mbcset, coll_sym_alloc, name)$/;"	f	file:
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
 build_equiv_class	regex/regcomp.c	/^build_equiv_class (sbcset, mbcset, equiv_class_alloc, name)$/;"	f	file:
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
 build_range_exp	regex/regcomp.c	/^build_range_exp (sbcset, mbcset, range_alloc, start_elem, end_elem)$/;"	f	file:
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
 build_trtable	regex/regexec.c	/^build_trtable (preg, state, fl_search)$/;"	f	file:
 build_upper_buffer	regex/regex_internal.c	/^build_upper_buffer (pstr)$/;"	f	file:
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
 build_wcs_buffer	regex/regex_internal.c	/^build_wcs_buffer (pstr)$/;"	f	file:
 build_wcs_upper_buffer	regex/regex_internal.c	/^build_wcs_upper_buffer (pstr)$/;"	f	file:
 build_word_op	regex/regcomp.c	/^build_word_op (dfa, not, err)$/;"	f	file:
+builddir	Makefile	/^builddir = .$/;"	m
 builtin_knowndrives	knowndrives.cpp	/^const drive_settings builtin_knowndrives[] = {$/;"	v
 builtin_knowndrives_size	knowndrives.cpp	/^const unsigned builtin_knowndrives_size =$/;"	v
 bus	cissio_freebsd.h	/^    u_int8_t	bus;$/;"	m	struct:__anon96
@@ -3363,6 +3620,8 @@ data_xfer_len	megaraid.h	/^  u32 data_xfer_len; \/*14h *\/$/;"	m	struct:megasas_
 data_xfer_len	megaraid.h	/^  u32 data_xfer_len; \/*14h *\/$/;"	m	struct:megasas_pthru_frame
 data_xfer_length	aacraid.h	/^  uint32_t data_xfer_length;$/;"	m	struct:__anon143
 data_xferlen	megaraid.h	/^  u32 data_xferlen; \/*14h *\/$/;"	m	struct:megasas_header
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
 dataxferaddr	megaraid.h	/^  uint32_t dataxferaddr;$/;"	m	struct:__anon41
 dataxferlen	megaraid.h	/^  uint32_t dataxferlen;$/;"	m	struct:__anon41
 dateandtimezone	utility.cpp	/^void dateandtimezone(char *buffer){$/;"	f
@@ -3376,6 +3635,7 @@ debugmode	smartd.cpp	/^static unsigned char debugmode = 0;$/;"	v	file:
 default_attr_defs	knowndrives.cpp	/^static ata_vendor_attr_defs default_attr_defs;$/;"	v	file:
 defect_list_fmt	os_qnxnto.h	/^        uchar_t         defect_list_fmt;$/;"	m	struct:_cdb::_format_unit
 delay	cissio_freebsd.h	/^    u_int32_t	delay;$/;"	m	struct:__anon97
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
 desc	os_qnxnto.h	/^  ATA_STATUS_DESCRIPTOR	       desc;$/;"	m	struct:_ata_sense
 desc	os_win32.cpp	/^  STORAGE_DEVICE_DESCRIPTOR desc;$/;"	m	union:os_win32::STORAGE_DEVICE_DESCRIPTOR_DATA	file:
 descript	os_win32/daemon_win32.h	/^	const char * descript; \/\/ Service description$/;"	m	struct:daemon_winsvc_options_s
@@ -3449,6 +3709,9 @@ direction	dev_interface.h	/^  unsigned char direction() const$/;"	f	struct:nvme_
 disable_system_auto_standby	dev_interface.cpp	/^bool smart_interface::disable_system_auto_standby(bool \/*disable*\/)$/;"	f	class:smart_interface
 disable_system_auto_standby	os_win32.cpp	/^bool win_smart_interface::disable_system_auto_standby(bool disable)$/;"	f	class:os_win32::win_smart_interface
 dispname	os_win32/daemon_win32.h	/^	const char * dispname; \/\/ Service display name$/;"	m	struct:daemon_winsvc_options_s
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
 dnr	freebsd_nvme_ioctl.h	/^	uint16_t dnr	:  1;	\/* do not retry *\/$/;"	m	struct:nvme_status
 do_cmd	os_freebsd.cpp	/^int freebsd_ata_device::do_cmd( struct ata_ioc_request* request, bool is_48bit_cmd)$/;"	f	class:os_freebsd::freebsd_ata_device
 do_cmd	os_freebsd.cpp	/^int freebsd_atacam_device::do_cmd( struct ata_ioc_request* request, bool is_48bit_cmd)$/;"	f	class:os_freebsd::freebsd_atacam_device
@@ -3460,9 +3723,14 @@ do_scsi_cmnd_io	os_netbsd.cpp	/^do_scsi_cmnd_io(int fd, struct scsi_cmnd_io * io
 do_scsi_cmnd_io	os_openbsd.cpp	/^do_scsi_cmnd_io(int fd, struct scsi_cmnd_io * iop, int report)$/;"	f
 do_scsi_cmnd_io	os_qnxnto.cpp	/^int do_scsi_cmnd_io(int fd,struct scsi_cmnd_io * iop,int report)$/;"	f
 do_scsi_cmnd_io	os_solaris.cpp	/^int do_scsi_cmnd_io(int fd, struct scsi_cmnd_io * iop, int report)$/;"	f
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docs_DATA	Makefile	/^docs_DATA = \\$/;"	m
+docsdir	Makefile	/^docsdir = $(docdir)$/;"	m
 done	os_freebsd.cpp	/^static char done[USB_MAX_DEVICES];$/;"	m	namespace:os_freebsd	file:
 dont_print_serial_number	atacmds.cpp	/^bool dont_print_serial_number = false;$/;"	v
 dosleep	smartd.cpp	/^static time_t dosleep(time_t wakeuptime, bool & sigwakeup)$/;"	f	file:
+download	update-smart-drivedb	/^download()$/;"	f
+download	update-smart-drivedb.in	/^download()$/;"	f
 download_fw	os_freebsd.h	/^	struct tw_cl_command_download_firmware	download_fw;$/;"	m	union:tw_cl_command_7k	typeref:struct:tw_cl_command_7k::tw_cl_command_download_firmware
 dpc	nvmecmds.h	/^  unsigned char   dpc;$/;"	m	struct:smartmontools::nvme_id_ns
 dps	nvmecmds.h	/^  unsigned char   dps;$/;"	m	struct:smartmontools::nvme_id_ns
@@ -3478,6 +3746,8 @@ drive_info	nvmeprint.h	/^  bool drive_info;$/;"	m	struct:nvme_print_options
 drive_info	scsiprint.h	/^  bool drive_info;$/;"	m	struct:scsi_print_options
 drive_letter	os_win32.cpp	/^static int drive_letter(const char * s)$/;"	f	namespace:os_win32
 drive_settings	knowndrives.h	/^struct drive_settings {$/;"	s
+drivedb_DATA	Makefile	/^drivedb_DATA = drivedb.h$/;"	m
+drivedbdir	Makefile	/^drivedbdir = ${datadir}\/${PACKAGE}$/;"	m
 driver_command	os_linux.h	/^  TW_Ioctl_Driver_Command_9000 driver_command;$/;"	m	struct:TAG_TW_Ioctl_Apache
 driver_lock	freebsd_nvme_ioctl.h	/^	struct mtx *		driver_lock;$/;"	m	struct:nvme_pt_command	typeref:struct:nvme_pt_command::mtx
 driver_pkt	os_freebsd.h	/^	struct tw_cl_driver_packet	driver_pkt;$/;"	m	struct:tw_osli_ioctl_no_data_buf	typeref:struct:tw_osli_ioctl_no_data_buf::tw_cl_driver_packet
@@ -3492,6 +3762,7 @@ duplicate_node	regex/regcomp.c	/^duplicate_node (new_idx, dfa, org_idx, constrai
 duplicate_node_closure	regex/regcomp.c	/^duplicate_node_closure (dfa, top_org_node, top_clone_node, root_node,$/;"	f	file:
 duplicate_tree	regex/regcomp.c	/^duplicate_tree (src, dfa)$/;"	f	file:
 duplicated	regex/regex_internal.h	/^  unsigned int duplicated : 1;$/;"	m	struct:__anon119
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
 dwDeviceMapEx	os_win32.cpp	/^  DWORD dwDeviceMapEx;  \/\/ 3ware specific: RAID drive bit map$/;"	m	struct:_GETVERSIONINPARAMS_EX	file:
 dwReserved	os_win32.cpp	/^  DWORD dwReserved[4];$/;"	m	struct:_SENDCMDINPARAMS_EX	file:
 dwReserved	os_win32.cpp	/^  ULONG dwReserved[2];$/;"	m	struct:_GETVERSIONINPARAMS_EX	file:
@@ -3561,6 +3832,8 @@ error	os_linux.h	/^    unsigned short error;$/;"	m	struct:TAG_TW_Command_Apache_
 error	os_qnxnto.h	/^	uchar_t			error;$/;"	m	struct:_ata_status_descriptor
 error	os_qnxnto.h	/^	uchar_t		error;				\/\/ Error Code$/;"	m	struct:_scsi_sense
 error	os_qnxnto.h	/^	uchar_t		error;				\/\/ Error Code$/;"	m	struct:_scsi_sense_descriptor
+error	update-smart-drivedb	/^error()$/;"	f
+error	update-smart-drivedb.in	/^error()$/;"	f
 error_count	nvmecmds.h	/^  uint64_t        error_count;$/;"	m	struct:smartmontools::nvme_error_log_page
 error_feature	os_linux.h	/^    unsigned error_feature	: 1;$/;"	m	struct:ide_reg_valid_s::__anon40
 error_feature_hob	os_linux.h	/^    unsigned error_feature_hob	: 1;$/;"	m	struct:ide_reg_valid_s::__anon40
@@ -3597,8 +3870,13 @@ evt_priorities	os_win32/syslog_win32.cpp	/^static int evt_priorities[MAXLINES];$
 evt_timeout	os_win32/syslog_win32.cpp	/^static volatile int evt_timeout;$/;"	v	file:
 evt_wait_in	os_win32/syslog_win32.cpp	/^static HANDLE evt_wait_in, evt_wait_out;$/;"	v	file:
 evt_wait_out	os_win32/syslog_win32.cpp	/^static HANDLE evt_wait_in, evt_wait_out;$/;"	v	file:
+exampledir	Makefile	/^exampledir = ${docdir}\/examplescripts$/;"	m
+examples_DATA	Makefile	/^examples_DATA = \\$/;"	m
+examples_SCRIPTS	Makefile	/^examples_SCRIPTS = \\$/;"	m
+examplesdir	Makefile	/^examplesdir = $(exampledir)$/;"	m
 exchange	getopt/getopt.c	/^exchange (argv)$/;"	f	file:
 exchange	os_qnxnto.h	/^	} exchange;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon74
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
 execute	utility.h	/^  bool execute(const char * str, unsigned nmatch, regmatch_t * pmatch, int flags = 0) const$/;"	f	class:regular_expression
 exit_lat	nvmecmds.h	/^  unsigned int    exit_lat;  \/\/ microseconds$/;"	m	struct:smartmontools::nvme_id_power_state
 expand_bkref_cache	regex/regexec.c	/^expand_bkref_cache (preg, mctx, cur_nodes, cur_str, last_str, subexp_num,$/;"	f	file:
@@ -3801,6 +4079,7 @@ gTapeAlertsLPage	scsiprint.cpp	/^static int gTapeAlertsLPage = 0;$/;"	v	file:
 gTempLPage	scsiprint.cpp	/^static int gTempLPage = 0;$/;"	v	file:
 gVerifyECounterLPage	scsiprint.cpp	/^static int gVerifyECounterLPage = 0;$/;"	v	file:
 gWriteECounterLPage	scsiprint.cpp	/^static int gWriteECounterLPage = 0;$/;"	v	file:
+gcc_have_attr_packed	Makefile	/^gcc_have_attr_packed = yes$/;"	m
 gen10	os_qnxnto.h	/^	} gen10;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon54
 gen12	os_qnxnto.h	/^	} gen12;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon55
 gen6	os_qnxnto.h	/^	} gen6;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon53
@@ -3993,6 +4272,9 @@ high_cylinder	os_linux.h	/^  task_ioreg_t high_cylinder;$/;"	m	struct:hd_drive_t
 hmmin	nvmecmds.h	/^  unsigned int    hmmin;$/;"	m	struct:smartmontools::nvme_id_ctrl
 hmpre	nvmecmds.h	/^  unsigned int    hmpre;$/;"	m	struct:smartmontools::nvme_id_ctrl
 hob_ports	os_linux.h	/^  task_ioreg_t	   hob_ports[8];$/;"	m	struct:ide_task_request_s
+host	Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
 host_id	os_freebsd.h	/^    u_int8_t	host_id:4;$/;"	m	struct:__anon10
 host_id	os_freebsd.h	/^    u_int8_t	host_id:4;$/;"	m	struct:__anon2
 host_id	os_freebsd.h	/^    u_int8_t	host_id:4;$/;"	m	struct:__anon3
@@ -4005,8 +4287,12 @@ host_id	os_linux.h	/^    unsigned char host_id:4;$/;"	m	struct:TW_Command_9000::
 host_id__unit	os_freebsd.h	/^	TW_UINT8	host_id__unit;	\/* 4:4 *\/$/;"	m	struct:tw_cl_command_generic
 host_id__unit	os_freebsd.h	/^	TW_UINT8	host_id__unit;	\/* 4:4 *\/$/;"	m	struct:tw_cl_command_param
 host_no	megaraid.h	/^  u16 host_no;$/;"	m	struct:megasas_iocpacket
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
 host_reads	nvmecmds.h	/^  unsigned char  host_reads[16];$/;"	m	struct:smartmontools::nvme_smart_log
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
 host_writes	nvmecmds.h	/^  unsigned char  host_writes[16];$/;"	m	struct:smartmontools::nvme_smart_log
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
 icase	regex/regex_internal.h	/^  unsigned int icase : 1;$/;"	m	struct:re_string_t
 id	aacraid.h	/^  uint32_t id;                 \/\/use the ID number this is wrong$/;"	m	struct:__anon141
 id	aacraid.h	/^  uint32_t id;                 \/\/use the ID number this is wrong$/;"	m	struct:__anon142
@@ -4038,8 +4324,10 @@ in_regs	dev_interface.h	/^  ata_in_regs_48bit in_regs;  \/\/\/< Input registers$
 in_size	os_freebsd.h	/^  unsigned int in_size;   \/* size of input data buffer *\/$/;"	m	struct:_HPT_IOCTL_PARAM
 in_size	os_linux.h	/^  unsigned long	   in_size;$/;"	m	struct:ide_task_request_s
 inbufsize	os_linux.cpp	/^    int inbufsize;$/;"	m	struct:os_linux::linux_ioctl_send_command	file:
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
 info	os_qnxnto.h	/^	uchar_t		info[4];			\/\/ Information (32bit big-endian value)$/;"	m	struct:_scsi_sense
 info_name	dev_interface.h	/^    std::string info_name; \/\/\/< Informal name$/;"	m	struct:smart_device::device_info
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
 infofound	ataprint.cpp	/^static const char * infofound(const char *output) {$/;"	f	file:
 init	dev_legacy.cpp	/^void smart_interface::init()$/;"	f	class:smart_interface
 init	os_darwin.cpp	/^void smart_interface::init()$/;"	f	class:smart_interface
@@ -4061,13 +4349,23 @@ init_state_nl	regex/regex_internal.h	/^  re_dfastate_t *init_state_nl;$/;"	m	str
 init_state_word	regex/regex_internal.h	/^  re_dfastate_t *init_state_word;$/;"	m	struct:re_dfa_t
 init_word_char	regex/regcomp.c	/^init_word_char (dfa)$/;"	f	file:
 initconnection	os_freebsd.h	/^    TWE_Command_INITCONNECTION	initconnection;$/;"	m	union:__anon11
+initd_DATA_install	Makefile	/^initd_DATA_install = install-initdDATA-null$/;"	m
+initd_DATA_uninstall	Makefile	/^initd_DATA_uninstall = uninstall-initdDATA-null$/;"	m
 initd_main	os_win32/daemon_win32.cpp	/^static int initd_main(const char * ident, int argc, char **argv)$/;"	f	file:
+initddir	Makefile	/^initddir = $/;"	m
+initdfile	Makefile	/^initdfile = smartd.initd$/;"	m
 inlen	megaraid.h	/^  uint32_t       inlen;$/;"	m	struct:uioctl_t
 inline	regex/regex_internal.h	85;"	d
+inpath	update-smart-drivedb	/^inpath()$/;"	f
+inpath	update-smart-drivedb.in	/^inpath()$/;"	f
 input	regex/regex_internal.h	/^  re_string_t *input;$/;"	m	struct:__anon125
 input_data	os_linux.h	/^  unsigned char input_data[499];$/;"	m	struct:TAG_TW_Ioctl
 input_length	os_linux.h	/^  int input_length;$/;"	m	struct:TAG_TW_Ioctl
 inst_evtmsg	os_win32/daemon_win32.cpp	/^static void inst_evtmsg(const char * ident)$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/ogh\/work\/git\/openssd-jasmine\/smartmon\/smartmontools-6.5\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
 int64_t	int64.h	/^typedef          __int64    int64_t;$/;"	t
 int64_t	int64.h	/^typedef          long long  int64_t;$/;"	t
 interleave	os_qnxnto.h	/^        uchar_t         interleave;$/;"	m	struct:_cdb::_format_unit_old
@@ -4249,6 +4547,8 @@ length1	regex/regexec.c	/^    int length1, length2, start, stop;$/;"	v
 length2	regex/regexec.c	/^    int length1, length2, start, range, stop;$/;"	v
 length2	regex/regexec.c	/^    int length1, length2, start, stop;$/;"	v
 libc_freeres_fn	regex/regcomp.c	/^libc_freeres_fn (free_mem)$/;"	f
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
 life_max_temp	atacmds.h	/^  signed char life_max_temp;        \/\/ 204: Maximum lifetime temperature$/;"	m	struct:ata_sct_status_response
 life_min_temp	atacmds.h	/^  signed char life_min_temp;        \/\/ 203: Minimum lifetime temperature$/;"	m	struct:ata_sct_status_response
 limited_states	regex/regex_internal.h	/^  re_dfastate_t **limited_states;$/;"	m	struct:__anon126
@@ -4283,6 +4583,8 @@ linux_smart_device	os_linux.cpp	/^class linux_smart_device$/;"	c	namespace:os_li
 linux_smart_interface	os_linux.cpp	/^class linux_smart_interface$/;"	c	namespace:os_linux	file:
 lo32	aacraid.h	/^  uint32_t lo32;$/;"	m	struct:__anon135
 load	os_qnxnto.h	/^	} load;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon65
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
 locate	os_qnxnto.h	/^	} locate;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon83
 lock_pkt	os_freebsd.h	/^		struct tw_cl_lock_packet		lock_pkt;$/;"	m	union:tw_osli_ioctl_with_payload::__anon17	typeref:struct:tw_osli_ioctl_with_payload::__anon17::tw_cl_lock_packet
 log_desc_index	atacmds.h	/^  unsigned short log_desc_index;$/;"	m	struct:ata_smart_extselftestlog
@@ -4477,6 +4779,10 @@ make_device_names	os_solaris.cpp	/^int make_device_names (char*** devlist, const
 make_dummy_depfile	depcomp	/^make_dummy_depfile ()$/;"	f
 make_evtkey	os_win32/daemon_win32.cpp	/^static bool make_evtkey(char * buf, unsigned size, const char * ident)$/;"	f	file:
 make_name	os_win32/daemon_win32.cpp	/^static void make_name(char * name, int sig)$/;"	f	file:
+man5dir	Makefile	/^man5dir = $(mandir)\/man5$/;"	m
+man8dir	Makefile	/^man8dir = $(mandir)\/man8$/;"	m
+man_MANS	Makefile	/^man_MANS = smartd.conf.5 smartctl.8 smartd.8 \\$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
 map_old_vendor_opts	atacmds.cpp	/^const char * const map_old_vendor_opts[][2] = {$/;"	v
 match	knowndrives.cpp	/^static bool match(const char * pattern, const char * str)$/;"	f	file:
 match	utility.h	/^  bool match(const char * str, int flags = 0) const$/;"	f	class:regular_expression
@@ -4537,6 +4843,8 @@ min_op_limit	atacmds.h	/^  signed char min_op_limit;         \/\/ 8: Minimum rec
 min_temp	atacmds.h	/^  signed char min_temp;             \/\/ 201: Minimum temperature this power cycle$/;"	m	struct:ata_sct_status_response
 minor_rev_num	atacmds.h	/^  unsigned short minor_rev_num;$/;"	m	struct:ata_identify_device
 missing_option	os_linux.cpp	/^smart_device * linux_smart_interface::missing_option(const char * opt)$/;"	f	class:os_linux::linux_smart_interface
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
 mn	nvmecmds.h	/^  char            mn[40];$/;"	m	struct:smartmontools::nvme_id_ctrl
 mode	atacmds.h	/^    int mode;         \/\/ SEL_*, see above$/;"	m	struct:ata_selective_selftest_args::span_args
 mode_select	os_qnxnto.h	/^	} mode_select;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon59
@@ -4627,6 +4935,8 @@ nodes	regex/regex_internal.h	/^  re_node_set nodes;$/;"	m	struct:re_dfastate_t
 nodes	regex/regex_internal.h	/^  re_token_t *nodes;$/;"	m	struct:re_dfa_t
 nodes_alloc	regex/regex_internal.h	/^  int nodes_alloc;$/;"	m	struct:re_dfa_t
 nodes_len	regex/regex_internal.h	/^  int nodes_len;$/;"	m	struct:re_dfa_t
+nodist_EXTRA_smartctl_SOURCES	Makefile	/^nodist_EXTRA_smartctl_SOURCES = os_solaris_ata.s$/;"	m
+nodist_EXTRA_smartd_SOURCES	Makefile	/^nodist_EXTRA_smartd_SOURCES = os_solaris_ata.s$/;"	m
 non_match	regex/regex_internal.h	/^  unsigned int non_match : 1;$/;"	m	struct:__anon118
 nonempty	utility.cpp	/^bool nonempty(const void * data, int size)$/;"	f
 nonoption_flags_len	getopt/getopt.c	/^static int nonoption_flags_len;$/;"	v	file:
@@ -4729,6 +5039,7 @@ offline_started	smartd.cpp	/^  bool offline_started;                   \/\/ true
 offlinests	smartd.cpp	/^  bool offlinests;                        \/\/ Monitor changes in offline data collection status$/;"	m	struct:dev_config	file:
 offlinests_ns	smartd.cpp	/^  bool offlinests_ns;                     \/\/ Disable auto standby if in progress$/;"	m	struct:dev_config	file:
 oldcommand	os_linux.h	/^    TW_Command_9000   oldcommand;$/;"	m	union:TAG_TW_Command_Full_9000::__anon31
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
 on_exit_event_logger	os_win32/syslog_win32.cpp	/^static void on_exit_event_logger(void)$/;"	f	file:
 oncs	nvmecmds.h	/^  unsigned short  oncs;$/;"	m	struct:smartmontools::nvme_id_ctrl
 op_code	os_qnxnto.h	/^        uchar_t         op_code;$/;"	m	struct:_cdb::_format_unit
@@ -4889,15 +5200,24 @@ os_XXXX_c_cvsid	os_qnxnto.cpp	/^const char *os_XXXX_c_cvsid="$Id: os_qnxnto.cpp 
 os_XXXX_c_cvsid	os_solaris.cpp	/^const char *os_XXXX_c_cvsid="$Id: os_solaris.cpp 4253 2016-03-26 19:47:47Z chrfranke $" \\$/;"	v
 os_XXXX_cpp_cvsid	os_generic.cpp	/^const char * os_XXXX_cpp_cvsid="$Id: os_generic.cpp 4120 2015-08-27 16:12:21Z samm2 $"$/;"	v
 os_darwin_cpp_cvsid	os_darwin.cpp	/^const char *os_darwin_cpp_cvsid="$Id: os_darwin.cpp 4214 2016-01-24 22:53:37Z samm2 $" \\$/;"	v
+os_deps	Makefile	/^os_deps = os_linux.o cciss.o dev_areca.o$/;"	m
+os_dltools	Makefile	/^os_dltools = curl wget lynx svn$/;"	m
+os_dnsdomainname	Makefile	/^os_dnsdomainname = 'dnsdomainname' 'hostname -d'$/;"	m
 os_freebsd	os_freebsd.cpp	/^namespace os_freebsd { \/\/ No need to publish anything, name provided for Doxygen$/;"	n	file:
+os_hostname	Makefile	/^os_hostname = 'hostname'$/;"	m
+os_libs	Makefile	/^os_libs = $/;"	m
 os_linux	os_linux.cpp	/^namespace os_linux { \/\/ No need to publish anything, name provided for Doxygen$/;"	n	file:
 os_linux_cpp_cvsid	os_linux.cpp	/^const char * os_linux_cpp_cvsid = "$Id: os_linux.cpp 4295 2016-04-15 20:01:32Z chrfranke $"$/;"	v
+os_mailer	Makefile	/^os_mailer = mail$/;"	m
+os_man_filter	Makefile	/^os_man_filter = Linux$/;"	m
 os_netbsd_cpp_cvsid	os_netbsd.cpp	/^const char * os_netbsd_cpp_cvsid = "$Id: os_netbsd.cpp 4253 2016-03-26 19:47:47Z chrfranke $"$/;"	v
+os_nisdomainname	Makefile	/^os_nisdomainname = 'nisdomainname' 'hostname -y' 'domainname'$/;"	m
 os_openbsd_cpp_cvsid	os_openbsd.cpp	/^const char * os_openbsd_cpp_cvsid = "$Id: os_openbsd.cpp 4253 2016-03-26 19:47:47Z chrfranke $"$/;"	v
 os_specific	os_linux.h	/^  unsigned int os_specific;$/;"	m	struct:TAG_TW_Ioctl_Driver_Command_9000
 os_status	os_freebsd.h	/^	TW_UINT32	os_status;$/;"	m	struct:tw_cl_driver_packet
 os_win32	os_win32.cpp	/^namespace os_win32 { \/\/ no need to publish anything, name provided for Doxygen$/;"	n	file:
 os_win32_cpp_cvsid	os_win32.cpp	/^const char * os_win32_cpp_cvsid = "$Id: os_win32.cpp 4293 2016-04-14 19:33:05Z chrfranke $";$/;"	v
+os_win32_manifest	Makefile	/^os_win32_manifest = $/;"	m
 out	os_freebsd.h	/^  void* out;              \/* output data buffer *\/$/;"	m	struct:_HPT_IOCTL_PARAM
 out_flags	os_linux.h	/^  ide_reg_valid_t  out_flags;$/;"	m	struct:ide_task_request_s
 out_needed	dev_interface.h	/^  ata_out_regs_flags out_needed; \/\/\/< True if output register value needed$/;"	m	struct:ata_cmd_in
@@ -4998,6 +5318,7 @@ pc_page	os_qnxnto.h	/^		uchar_t		pc_page;$/;"	m	struct:_cdb::__anon62
 pc_page	os_qnxnto.h	/^		uchar_t		pc_page;$/;"	m	struct:_cdb::__anon63
 pc_page	os_qnxnto.h	/^		uchar_t		pc_page;$/;"	m	struct:_cdb::_mode_sense10
 pdata	os_freebsd.h	/^	TW_VOID				*pdata; \/* points to data_buf *\/$/;"	m	struct:tw_osli_ioctl_no_data_buf
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
 peek_token	regex/regcomp.c	/^peek_token (token, input, syntax)$/;"	f	file:
 peek_token_bracket	regex/regcomp.c	/^peek_token_bracket (token, input, syntax)$/;"	f	file:
 pending_time	atacmds.h	/^  int pending_time;   \/\/ One plus time in minutes to wait after powerup before restarting$/;"	m	struct:ata_selective_selftest_args
@@ -5013,6 +5334,10 @@ phys_addr	megaraid.h	/^  u32 phys_addr;$/;"	m	struct:megasas_sge32
 phys_addr	megaraid.h	/^  u64 phys_addr;$/;"	m	struct:megasas_sge64
 pid_file	smartd.cpp	/^static std::string pid_file;$/;"	v	file:
 pid_t	smartd.cpp	/^typedef int pid_t;$/;"	t	file:
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/smartmontools$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/smartmontools$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/smartmontools$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/smartmontools$/;"	m
 play_audio_msf	os_qnxnto.h	/^	} play_audio_msf;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon69
 play_audio_ti	os_qnxnto.h	/^	} play_audio_ti;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon70
 plugin	os_darwin.cpp	/^  IOCFPlugInInterface **plugin;$/;"	m	struct:__anon95	file:
@@ -5030,6 +5355,7 @@ powerquiet	smartd.cpp	/^  bool powerquiet;                        \/\/ skip powe
 powerskipcnt	smartd.cpp	/^  int powerskipcnt;                       \/\/ Number of checks skipped due to idle or standby mode$/;"	m	struct:temp_dev_state	file:
 powerskipmax	smartd.cpp	/^  int powerskipmax;                       \/\/ how many times can be check skipped$/;"	m	struct:dev_config	file:
 prefail	smartd.cpp	/^  bool prefail;                           \/\/ Track changes in Prefail Attributes$/;"	m	struct:dev_config	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
 preg	atacmds.cpp	/^static const char * preg(const ata_register & r, char (& buf)[8])$/;"	f	file:
 presets	knowndrives.h	/^  const char * presets;$/;"	m	struct:drive_settings
 prettyprint	atacmds.cpp	/^static void prettyprint(const unsigned char *p, const char *name){$/;"	f	file:
@@ -5075,6 +5401,7 @@ priority	atacmds.h	/^    ata_vendor_def_prior priority; \/\/ Setting priority$/;
 probe	os_win32.cpp	/^bool win_nvme_device::probe()$/;"	f	class:os_win32::win_nvme_device
 proceed_next_node	regex/regexec.c	/^proceed_next_node (preg, nregs, regs, mctx, pidx, node, eps_via_nodes, fs)$/;"	f	file:
 program_details	missing	/^program_details ()$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
 progress	scsicmds.h	/^    int progress; \/* -1 -> N\/A, 0-65535 -> available *\/$/;"	m	struct:scsi_sense_disect
 protocol	os_freebsd.h	/^  unsigned char protocol;   \/* HPT_(READ,WRITE) or zero for non-DATA *\/$/;"	m	struct:_HPT_PASS_THROUGH_HEADER
 protocol	os_qnxnto.h	/^		uchar_t		protocol;      \/\/ multiple count, protocol$/;"	m	struct:_ata_pass_thru
@@ -5084,6 +5411,7 @@ prp1	freebsd_nvme_ioctl.h	/^	uint64_t prp1;		\/* prp entry 1 *\/$/;"	m	struct:nv
 prp2	freebsd_nvme_ioctl.h	/^	uint64_t prp2;		\/* prp entry 2 *\/$/;"	m	struct:nvme_command
 prune_impossible_nodes	regex/regexec.c	/^prune_impossible_nodes (preg, mctx)$/;"	f	file:
 psd	nvmecmds.h	/^  struct nvme_id_power_state  psd[32];$/;"	m	struct:smartmontools::nvme_id_ctrl	typeref:struct:smartmontools::nvme_id_ctrl::nvme_id_power_state
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
 pstr	regex/regex_internal.h	/^     const re_string_t *pstr;$/;"	v
 pt_cmd	os_linux.cpp	/^  bool (linux_megaraid_device::*pt_cmd)(int cdblen, void *cdb, int dataLen, void *data,$/;"	m	class:os_linux::linux_megaraid_device	file:
 pthru	megaraid.h	/^    struct megasas_pthru_frame pthru;$/;"	m	union:megasas_iocpacket::__anon47	typeref:struct:megasas_iocpacket::__anon47::megasas_pthru_frame
@@ -5254,6 +5582,9 @@ release	dev_interface.cpp	/^void tunnelled_device_base::release(const smart_devi
 release	dev_interface.h	/^  device_type * release()$/;"	f	class:any_device_auto_ptr
 release	dev_interface.h	/^  smart_device * release(unsigned i)$/;"	f	class:smart_device_list
 release	dev_tunnelled.h	/^  virtual void release(const smart_device * dev)$/;"	f	class:tunnelled_device
+releaseversion	Makefile	/^releaseversion = ${PACKAGE}-${VERSION}$/;"	m
+reload	smartd.initd	/^    reload()$/;"	f
+reload	smartd.initd.in	/^    reload()$/;"	f
 removable	smartd.cpp	/^  bool removable;                         \/\/ Device may disappear (not be present)$/;"	m	struct:dev_config	file:
 removal	os_qnxnto.h	/^	} removal;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon64
 reopen_stderr	os_win32/daemon_win32.cpp	/^static int reopen_stdin, reopen_stdout, reopen_stderr;$/;"	v	file:
@@ -5262,8 +5593,12 @@ reopen_stdout	os_win32/daemon_win32.cpp	/^static int reopen_stdin, reopen_stdout
 repeat_count	os_freebsd.h	/^	TW_UINT8	repeat_count;$/;"	m	struct:tw_cl_event_packet
 replace	dev_interface.h	/^  void replace(device_type * dev)$/;"	f	class:any_device_auto_ptr
 replace	os_win32/wmiquery.h	/^  T * * replace()$/;"	f	class:com_intf_ptr
+report	smartd.initd	/^    report()$/;"	f
+report	smartd.initd.in	/^    report()$/;"	f
 report_density	os_qnxnto.h	/^	} report_density;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon90
 report_events	os_win32/syslog_win32.cpp	/^static void report_events(int cnt)$/;"	f	file:
+report_unsupported	smartd.initd	/^report_unsupported () {$/;"	f
+report_unsupported	smartd.initd.in	/^report_unsupported () {$/;"	f
 req_cmd	os_linux.h	/^  int		   req_cmd;$/;"	m	struct:ide_task_request_s
 req_type	dev_interface.h	/^    std::string req_type;  \/\/\/< Device type requested by user, empty if none$/;"	m	struct:smart_device::device_info
 reqsensearea	megaraid.h	/^  uint8_t  reqsensearea[MAX_REQ_SENSE_LEN];$/;"	m	struct:__anon41
@@ -5508,7 +5843,12 @@ sat_device	scsiata.cpp	/^class sat_device$/;"	c	namespace:sat	file:
 sat_device	scsiata.cpp	/^sat_device::sat_device(smart_interface * intf, scsi_device * scsidev,$/;"	f	class:sat::sat_device
 sataphy	ataprint.h	/^  bool sataphy, sataphy_reset;$/;"	m	struct:ata_print_options
 sataphy_reset	ataprint.h	/^  bool sataphy, sataphy_reset;$/;"	m	struct:ata_print_options
+savestates	Makefile	/^savestates = $/;"	m
+savestatesdir	Makefile	/^savestatesdir = $/;"	m
 sbcset	regex/regex_internal.h	/^    re_bitset_ptr_t sbcset;	\/* for SIMPLE_BRACKET *\/$/;"	m	union:__anon119::__anon120
+sbin_PROGRAMS	Makefile	/^sbin_PROGRAMS = smartctl$(EXEEXT) smartd$(EXEEXT)$/;"	m
+sbin_SCRIPTS	Makefile	/^sbin_SCRIPTS = update-smart-drivedb$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
 sc	freebsd_nvme_ioctl.h	/^	uint16_t sc	:  8;	\/* status code *\/$/;"	m	struct:nvme_status
 scan_after_select	atacmds.h	/^  int scan_after_select; \/\/ Run offline scan after selective self-test:$/;"	m	struct:ata_selective_selftest_args
 scan_devices	smartctl.cpp	/^void scan_devices(const smart_devtype_list & types, bool with_open, char ** argv)$/;"	f
@@ -5681,6 +6021,8 @@ select_port	os_win32.cpp	/^bool csmi_device::select_port(int port)$/;"	f	class:o
 selection_code	atacmds.h	/^  unsigned short selection_code;    \/\/ 1 = Read Timer, 2 = Write Timer$/;"	m	struct:ata_sct_error_recovery_control_command
 selective_test_last_end	smartd.cpp	/^  uint64_t selective_test_last_end;       \/\/ End LBA of last scheduled selective self-test$/;"	m	struct:persistent_dev_state	file:
 selective_test_last_start	smartd.cpp	/^  uint64_t selective_test_last_start;     \/\/ Start LBA of last scheduled selective self-test$/;"	m	struct:persistent_dev_state	file:
+selecturl	update-smart-drivedb	/^selecturl()$/;"	f
+selecturl	update-smart-drivedb.in	/^selecturl()$/;"	f
 self_test_code	scsiprint.cpp	/^static const char * self_test_code[] = {$/;"	v	file:
 self_test_exec_status	atacmds.h	/^  unsigned char self_test_exec_status;  \/\/IBM # segments for offline collection$/;"	m	struct:ata_smart_values
 self_test_result	scsiprint.cpp	/^static const char * self_test_result[] = {$/;"	v	file:
@@ -5813,6 +6155,7 @@ sgl_offset	os_linux.h	/^    unsigned char sgl_offset:3;$/;"	m	struct:TW_Command_
 sgl_offset	os_linux.h	/^  unsigned char   sgl_offset;$/;"	m	struct:TAG_TW_Command_Apache
 sgloff	os_linux.h	/^    unsigned char sgloff:3;$/;"	m	struct:TAG_TW_Passthru::__anon19
 sgls	nvmecmds.h	/^  unsigned int    sgls;$/;"	m	struct:smartmontools::nvme_id_ctrl
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
 short_test_completion_time	atacmds.h	/^  unsigned char short_test_completion_time;$/;"	m	struct:ata_smart_values
 show_presets	ataprint.h	/^  bool show_presets; \/\/ Show presets and exit$/;"	m	struct:ata_print_options
 show_presets	knowndrives.cpp	/^void show_presets(const ata_identify_device * drive)$/;"	f
@@ -5936,12 +6279,29 @@ smart_vendor_attrib	nvmeprint.h	/^  bool smart_vendor_attrib;$/;"	m	struct:nvme_
 smart_vendor_attrib	scsiprint.h	/^  bool smart_vendor_attrib;$/;"	m	struct:scsi_print_options
 smartcheck	smartd.cpp	/^  bool smartcheck;                        \/\/ Check SMART status$/;"	m	struct:dev_config	file:
 smartcommandhandler	atacmds.cpp	/^int smartcommandhandler(ata_device * device, smart_command_set command, int select, char *data){$/;"	f
+smartctl_DEPENDENCIES	Makefile	/^smartctl_DEPENDENCIES = $(os_deps) $(am__append_8)$/;"	m
+smartctl_LDADD	Makefile	/^smartctl_LDADD = $(os_deps) $(os_libs) $(am__append_7) \\$/;"	m
+smartctl_OBJECTS	Makefile	/^smartctl_OBJECTS = $(am_smartctl_OBJECTS)$/;"	m
+smartctl_SOURCES	Makefile	/^smartctl_SOURCES = smartctl.cpp smartctl.h atacmdnames.cpp \\$/;"	m
 smartctl_cpp_cvsid	smartctl.cpp	/^const char * smartctl_cpp_cvsid = "$Id: smartctl.cpp 4311 2016-04-27 21:03:01Z chrfranke $"$/;"	v
 smartctl_examples	os_darwin.cpp	/^static const char  smartctl_examples[] =$/;"	v	file:
 smartctl_examples	os_freebsd.cpp	/^static const char  smartctl_examples[] =$/;"	m	namespace:os_freebsd	file:
 smartctl_examples	os_linux.cpp	/^static const char  smartctl_examples[] =$/;"	m	namespace:os_linux	file:
+smartd_DEPENDENCIES	Makefile	/^smartd_DEPENDENCIES = $(os_deps) $(am__append_11)$/;"	m
+smartd_LDADD	Makefile	/^smartd_LDADD = $(os_deps) $(os_libs) $(CAPNG_LDADD) $(am__append_10) \\$/;"	m
+smartd_OBJECTS	Makefile	/^smartd_OBJECTS = $(am_smartd_OBJECTS)$/;"	m
+smartd_SOURCES	Makefile	/^smartd_SOURCES = smartd.cpp atacmdnames.cpp atacmdnames.h atacmds.cpp \\$/;"	m
 smartd_cpp_cvsid	smartd.cpp	/^const char * smartd_cpp_cvsid = "$Id: smartd.cpp 4308 2016-04-24 13:36:10Z chrfranke $"$/;"	v
+smartd_prestart	smartd.freebsd.initd.in	/^smartd_prestart()$/;"	f
+smartd_reload	smartd.freebsd.initd.in	/^smartd_reload()$/;"	f
+smartd_report	smartd.freebsd.initd.in	/^smartd_report()$/;"	f
+smartd_suffix	Makefile	/^smartd_suffix = $/;"	m
+smartdplugindir	Makefile	/^smartdplugindir = ${smartdscriptdir}\/smartd_warning.d$/;"	m
+smartdscript_SCRIPTS	Makefile	/^smartdscript_SCRIPTS = smartd_warning.sh$/;"	m
+smartdscriptdir	Makefile	/^smartdscriptdir = ${sysconfdir}$/;"	m
 smartmontools	nvmecmds.h	/^namespace smartmontools {$/;"	n
+smartmontools_release_date	Makefile	/^smartmontools_release_date = 2016-05-07$/;"	m
+smartmontools_release_time	Makefile	/^smartmontools_release_time = 11:17:46 UTC$/;"	m
 smartthres	smartd.cpp	/^  ata_smart_thresholds_pvt smartthres;    \/\/ SMART thresholds$/;"	m	struct:temp_dev_state	file:
 smartval	smartd.cpp	/^  ata_smart_values smartval;              \/\/ SMART data$/;"	m	struct:temp_dev_state	file:
 smi	dev_interface.h	/^  const smart_interface * smi() const$/;"	f	class:smart_device
@@ -5967,6 +6327,7 @@ srb_status	aacraid.h	/^  uint32_t srb_status;$/;"	m	struct:__anon143
 srbioctl	dev_areca.h	/^  sARCMSR_IO_HDR  srbioctl;$/;"	m	struct:_SRB_BUFFER
 src	regex/regex_internal.h	/^     const bitset src;$/;"	v
 src_unit	os_freebsd.h	/^    u_int8_t	src_unit:4;$/;"	m	struct:__anon8
+srcdir	Makefile	/^srcdir = .$/;"	m
 ssvid	nvmecmds.h	/^  unsigned short  ssvid;$/;"	m	struct:smartmontools::nvme_id_ctrl
 stack	regex/regex_internal.h	/^  struct re_fail_stack_ent_t *stack;$/;"	m	struct:re_fail_stack_t	typeref:struct:re_fail_stack_t::re_fail_stack_ent_t
 standby_disable_state	smartd.cpp	/^static int standby_disable_state = 0;$/;"	v	file:
@@ -5978,6 +6339,8 @@ start	regex/regexec.c	/^    int length, start, range;$/;"	v
 start	regex/regexec.c	/^    int length, start;$/;"	v
 start	regex/regexec.c	/^    int length1, length2, start, range, stop;$/;"	v
 start	regex/regexec.c	/^    int length1, length2, start, stop;$/;"	v
+start	smartd.initd	/^    start()$/;"	f
+start	smartd.initd.in	/^    start()$/;"	f
 start_address	os_qnxnto.h	/^		uchar_t		start_address[4];$/;"	m	struct:_cdb::__anon71
 start_event_logger	os_win32/syslog_win32.cpp	/^static int start_event_logger()$/;"	f	file:
 start_frame	os_qnxnto.h	/^		uchar_t		start_frame;$/;"	m	struct:_cdb::__anon69
@@ -6044,6 +6407,8 @@ stdio_file	utility.h	/^class stdio_file$/;"	c
 stop	regex/regex_internal.h	/^  int stop;$/;"	m	struct:re_string_t
 stop	regex/regexec.c	/^    int length1, length2, start, range, stop;$/;"	v
 stop	regex/regexec.c	/^    int length1, length2, start, stop;$/;"	v
+stop	smartd.initd	/^    stop()$/;"	f
+stop	smartd.initd.in	/^    stop()$/;"	f
 storage_predict_failure_ioctl	os_win32.cpp	/^static int storage_predict_failure_ioctl(HANDLE hdevice, char * data = 0)$/;"	f	namespace:os_win32
 storage_query_property_ioctl	os_win32.cpp	/^static int storage_query_property_ioctl(HANDLE hdevice, STORAGE_DEVICE_DESCRIPTOR_DATA * data)$/;"	f	namespace:os_win32
 str_idx	regex/regex_internal.h	/^  int str_idx; \/* The position NODE match at.  *\/$/;"	m	struct:__anon123
@@ -6064,6 +6429,7 @@ sub_epsilon_src_nodes	regex/regexec.c	/^sub_epsilon_src_nodes (dfa, node, dest_n
 sub_tops	regex/regex_internal.h	/^  re_sub_match_top_t **sub_tops;$/;"	m	struct:__anon125
 subch_selection	os_qnxnto.h	/^		uchar_t		subch_selection;$/;"	m	struct:_cdb::__anon80
 subch_selection	os_qnxnto.h	/^		uchar_t		subch_selection;$/;"	m	struct:_cdb::__anon81
+subdir	Makefile	/^subdir = .$/;"	m
 subexp_from	regex/regex_internal.h	/^  int subexp_from;$/;"	m	struct:re_backref_cache_entry
 subexp_to	regex/regex_internal.h	/^  int subexp_to;$/;"	m	struct:re_backref_cache_entry
 subexps	regex/regex_internal.h	/^  re_subexp_t *subexps;$/;"	m	struct:re_dfa_t
@@ -6091,6 +6457,7 @@ svc_paused	os_win32/daemon_win32.cpp	/^static int svc_paused; \/\/ Service pause
 svc_status	os_win32/daemon_win32.cpp	/^static SERVICE_STATUS svc_status;$/;"	v	file:
 svcadm_main	os_win32/daemon_win32.cpp	/^static int svcadm_main(const char * ident, const daemon_winsvc_options * svc_opts,$/;"	f	file:
 svcname	os_win32/daemon_win32.h	/^	const char * svcname;  \/\/ Service name$/;"	m	struct:daemon_winsvc_options_s
+svn_deps	Makefile	/^svn_deps = $/;"	m
 svnid	os_win32/runcmd.c	/^char svnid[] = "$Id: runcmd.c 4120 2015-08-27 16:12:21Z samm2 $";$/;"	v
 svnid	os_win32/wtssendmsg.c	/^char svnid[] = "$Id: wtssendmsg.c 4120 2015-08-27 16:12:21Z samm2 $";$/;"	v
 swap2	atacmds.cpp	/^void swap2(char *location){$/;"	f
@@ -6103,9 +6470,14 @@ swapx	atacmds.h	/^inline void swapx(unsigned int * p)$/;"	f
 swapx	atacmds.h	/^inline void swapx(unsigned short * p)$/;"	f
 synchronize_cache	os_qnxnto.h	/^	} synchronize_cache;$/;"	m	union:_cdb	typeref:struct:_cdb::__anon66
 syntax	regex/regex.h	/^  reg_syntax_t syntax;$/;"	m	struct:re_pattern_buffer
+sysconf_DATA	Makefile	/^sysconf_DATA = smartd.conf$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
 syserror	utility.cpp	/^void syserror(const char *message){$/;"	f
 syslog	os_win32/syslog_win32.cpp	/^void syslog(int priority, const char *message, ...)$/;"	f
 syslog_win32_cpp_cvsid	os_win32/syslog_win32.cpp	/^const char *syslog_win32_cpp_cvsid = "$Id: syslog_win32.cpp 4149 2015-10-17 15:38:01Z chrfranke $"$/;"	v
+systemdenvfile	Makefile	/^systemdenvfile = ${sysconfdir}\/default\/smartmontools$/;"	m
+systemdsystemunit_DATA	Makefile	/^systemdsystemunit_DATA = smartd.service$/;"	m
+systemdsystemunitdir	Makefile	/^systemdsystemunitdir = ${prefix}\/lib\/systemd\/system$/;"	m
 szDescription	csmisas.h	/^   __u8  szDescription[81];$/;"	m	struct:_CSMI_SAS_DRIVER_INFO
 szName	csmisas.h	/^   __u8  szName[81];$/;"	m	struct:_CSMI_SAS_DRIVER_INFO
 szSerialNumber	csmisas.h	/^   __u8  szSerialNumber[81];$/;"	m	struct:_CSMI_SAS_CNTLR_CONFIG
@@ -6113,7 +6485,13 @@ table_id	atacmds.h	/^  unsigned short table_id;          \/\/ 2 = Temperature Hi
 table_id	os_linux.h	/^  unsigned short table_id;$/;"	m	struct:TAG_TW_Ioctl
 tag_WBEM_CONNECT_OPTIONS	os_win32/wbemcli_small.h	/^  typedef enum tag_WBEM_CONNECT_OPTIONS {$/;"	g
 tag_WBEM_GENERIC_FLAG_TYPE	os_win32/wbemcli_small.h	/^  typedef enum tag_WBEM_GENERIC_FLAG_TYPE {$/;"	g
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
 target	megaraid.h	/^  uint8_t  target;$/;"	m	struct:__anon41
+target_alias	Makefile	/^target_alias = $/;"	m
 target_id	megaraid.h	/^  u8 target_id;      \/*04h *\/$/;"	m	struct:megasas_pthru_frame
 target_id	megaraid.h	/^  u8 target_id;     \/*04h *\/$/;"	m	struct:megasas_header
 target_status	os_freebsd.h	/^    u_int16_t	target_status;		\/* set low byte to target request's ID *\/$/;"	m	struct:__anon6
@@ -6167,6 +6545,10 @@ to_scsi	dev_interface.h	/^  scsi_device * to_scsi()$/;"	f	class:smart_device
 to_str	os_win32/wmiquery.cpp	/^bool com_bstr::to_str(const BSTR & bstr, std::string & str)$/;"	f	class:com_bstr
 token_info	knowndrives.cpp	/^  token_info() : type(0), line(0) { }$/;"	f	struct:token_info
 token_info	knowndrives.cpp	/^struct token_info$/;"	s	file:
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
 total_time_to_complete_off_line	atacmds.h	/^  unsigned short int total_time_to_complete_off_line; \/\/ IBM different$/;"	m	struct:ata_smart_values
 track	os_qnxnto.h	/^		uchar_t		track;$/;"	m	struct:_cdb::__anon79
 track_addr	os_qnxnto.h	/^        uchar_t         track_addr;$/;"	m	struct:_cdb::_format_unit_old
@@ -6182,6 +6564,7 @@ transfer_len	os_qnxnto.h	/^		uchar_t		transfer_len[4];$/;"	m	struct:_cdb::__anon
 transfer_len	os_qnxnto.h	/^		uchar_t		transfer_len[4];$/;"	m	struct:_cdb::__anon58
 transfer_length	os_qnxnto.h	/^		uchar_t		transfer_length[2];$/;"	m	struct:_cdb::__anon91
 transfer_length	os_qnxnto.h	/^		uchar_t		transfer_length[3];$/;"	m	struct:_cdb::__anon89
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
 transit_state	regex/regexec.c	/^transit_state (err, preg, mctx, state, fl_search)$/;"	f	file:
 transit_state_bkref	regex/regexec.c	/^transit_state_bkref (preg, nodes, mctx)$/;"	f	file:
 transit_state_mb	regex/regexec.c	/^transit_state_mb (preg, pstate, mctx)$/;"	f	file:
@@ -6425,6 +6808,8 @@ usSlotNumber	csmisas.h	/^   __u16 usSlotNumber;$/;"	m	struct:_CSMI_SAS_CNTLR_CON
 usStatus	csmisas.h	/^   __u16 usStatus;$/;"	m	struct:_CSMI_SAS_FIRMWARE_DOWNLOAD
 usage	os_win32/wtssendmsg.c	/^static int usage()$/;"	f	file:
 usage	smartd.cpp	/^  bool usage;                             \/\/ Track changes in Usage Attributes$/;"	m	struct:dev_config	file:
+usage	update-smart-drivedb	/^usage()$/;"	f
+usage	update-smart-drivedb.in	/^usage()$/;"	f
 usagefailed	smartd.cpp	/^  bool usagefailed;                       \/\/ Check for failed Usage Attributes$/;"	m	struct:dev_config	file:
 usb_bridge	knowndrives.h	/^  std::string usb_bridge; \/\/ USB bridge name, empty if unknown$/;"	m	struct:usb_dev_info
 usb_dev_info	knowndrives.h	/^struct usb_dev_info$/;"	s
@@ -6459,6 +6844,8 @@ val	smartd.cpp	/^    unsigned char val;$/;"	m	struct:persistent_dev_state::ata_a
 valid_len	regex/regex_internal.h	/^  int valid_len;$/;"	m	struct:re_string_t
 value	knowndrives.cpp	/^  std::string value;$/;"	m	struct:token_info	file:
 value	os_freebsd.h	/^    u_int32_t	value;$/;"	m	union:__anon12
+vecho	update-smart-drivedb	/^vecho()$/;"	f
+vecho	update-smart-drivedb.in	/^vecho()$/;"	f
 vendor_attributes	atacmds.h	/^  struct ata_smart_attribute vendor_attributes [NUMBER_ATA_SMART_ATTRIBUTES];$/;"	m	struct:ata_smart_values	typeref:struct:ata_smart_values::ata_smart_attribute
 vendor_specifc	atacmds.h	/^  unsigned char vendor_specifc[2];$/;"	m	struct:ata_smart_extselftestlog
 vendor_specific	atacmds.h	/^  unsigned char vendor_specific[32];\/\/ 480-511: vendor specific$/;"	m	struct:ata_sct_status_response
@@ -6479,6 +6866,10 @@ version	os_linux.h	/^      char version[504];$/;"	m	struct:TW_Command_9000::__an
 vid	nvmecmds.h	/^  unsigned short  vid;$/;"	m	struct:smartmontools::nvme_id_ctrl
 vquery	os_win32/wmiquery.cpp	/^bool wbem_services::vquery(wbem_enumerator & result, const char * qstr, va_list args) \/*const*\/$/;"	f	class:wbem_services
 vquery1	os_win32/wmiquery.cpp	/^bool wbem_services::vquery1(wbem_object & obj, const char * qstr, va_list args) \/*const*\/$/;"	f	class:wbem_services
+vrun	update-smart-drivedb	/^vrun()$/;"	f
+vrun	update-smart-drivedb.in	/^vrun()$/;"	f
+vrun2	update-smart-drivedb	/^vrun2()$/;"	f
+vrun2	update-smart-drivedb.in	/^vrun2()$/;"	f
 vs	nvmecmds.h	/^  unsigned char   vs;$/;"	m	struct:smartmontools::nvme_error_log_page
 vs	nvmecmds.h	/^  unsigned char   vs[1024];$/;"	m	struct:smartmontools::nvme_id_ctrl
 vs	nvmecmds.h	/^  unsigned char   vs[3712];$/;"	m	struct:smartmontools::nvme_id_ns
@@ -6497,6 +6888,8 @@ wIdentifier	os_win32.cpp	/^  WORD wIdentifier;     \/\/ Vendor specific identifi
 wIdentifier	os_win32.cpp	/^  WORD wIdentifier;     \/\/ Vendor specific identifier$/;"	m	struct:_SENDCMDINPARAMS_EX	file:
 wait_evt_running	os_win32/daemon_win32.cpp	/^static int wait_evt_running(int seconds, int exists)$/;"	f	file:
 wait_signaled	os_win32/daemon_win32.cpp	/^static int wait_signaled(HANDLE h, int seconds)$/;"	f	file:
+warning	update-smart-drivedb	/^warning()$/;"	f
+warning	update-smart-drivedb.in	/^warning()$/;"	f
 warning_script	smartd.cpp	/^static std::string warning_script;$/;"	v	file:
 warning_temp_time	nvmecmds.h	/^  unsigned int   warning_temp_time;$/;"	m	struct:smartmontools::nvme_smart_log
 warningmsg	knowndrives.h	/^  const char * warningmsg;$/;"	m	struct:drive_settings
@@ -6531,6 +6924,9 @@ win_smart_device	os_win32.cpp	/^class win_smart_device$/;"	c	namespace:os_win32	
 win_smart_interface	os_win32.cpp	/^class win_smart_interface$/;"	c	namespace:os_win32	file:
 win_tw_cli_device	os_win32.cpp	/^class win_tw_cli_device$/;"	c	namespace:os_win32	file:
 win_tw_cli_device	os_win32.cpp	/^win_tw_cli_device::win_tw_cli_device(smart_interface * intf, const char * dev_name, const char * req_type)$/;"	f	class:os_win32::win_tw_cli_device
+with_nvme_devicescan	Makefile	/^with_nvme_devicescan = $/;"	m
+with_selinux	Makefile	/^with_selinux = $/;"	m
+with_update_smart_drivedb	Makefile	/^with_update_smart_drivedb = yes$/;"	m
 wmiquery_cpp_cvsid	os_win32/wmiquery.cpp	/^const char * wmiquery_cpp_cvsid = "$Id: wmiquery.cpp 4120 2015-08-27 16:12:21Z samm2 $"$/;"	v
 word086	atacmds.h	/^  unsigned short word086;$/;"	m	struct:ata_identify_device
 word_char	regex/regex_internal.h	/^  re_bitset_ptr_t word_char;$/;"	m	struct:re_dfa_t
