@@ -137,8 +137,8 @@ static __inline void handle_got_cfis(void)
 	}
 	else
 	{
-		lba = 0;
-		sector_count = 0;
+		lba = (fis_d0 >> 24);
+		sector_count = fis_d3 & 0x0000FFFF;
 	}
 
 	if (lba + sector_count > MAX_LBA + 1 && (cmd_type & ATR_NO_SECT) == 0)
